@@ -1,6 +1,6 @@
 // Service worker for "Research shows that…" — offline support + installability.
 // Bump CACHE when the app shell changes to invalidate old caches.
-const CACHE = "rst-v1";
+const CACHE = "rst-v2";
 const SHELL = [
   "./",
   "./index.html",

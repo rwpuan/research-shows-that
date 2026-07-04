@@ -90,6 +90,38 @@ html[data-theme="light"] .theme-icon {
   transform: none;
 }
 
+/* ---------- Countdown ---------- */
+.countdown {
+  max-width: var(--measure);
+  margin: 0.85rem auto 0;
+  padding: 0 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.cd-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: cd-pulse 2.4s ease-in-out infinite;
+}
+.cd-time {
+  color: var(--fg);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.04em;
+}
+.countdown.refreshing .cd-time { color: var(--accent); text-transform: none; letter-spacing: 0.02em; }
+@keyframes cd-pulse { 0%, 100% { opacity: 0.25; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .cd-dot { animation: none; opacity: 0.8; } }
+
 /* ---------- Article ---------- */
 main { padding: 0 1.25rem 4rem; }
 
@@ -154,6 +186,28 @@ main { padding: 0 1.25rem 4rem; }
 .body li { margin: 0 0 0.4rem; }
 .body strong { font-weight: 700; }
 .body a { color: var(--link); }
+
+/* ---------- Conversation starter ---------- */
+.talking-point {
+  display: block;
+  margin-top: 2rem;
+  padding: 1rem 1.15rem;
+  background: var(--faint);
+  border-left: 3px solid var(--accent);
+  border-radius: 8px;
+  font-size: 1.04rem;
+  line-height: 1.5;
+}
+.tp-tag {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent);
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
 
 /* ---------- Source card ---------- */
 .source-card {

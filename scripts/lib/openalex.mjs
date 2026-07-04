@@ -4,12 +4,18 @@
 const BASE = "https://api.openalex.org/works";
 
 // Seed topics rotated for variety. One is chosen per run (by date) so entries differ.
+// Leaning toward curiosity-driven, "conversation starter" themes (Veritasium-style),
+// while keeping a spread of serious fields too.
 export const TOPICS = [
   "psychology", "behavioral economics", "nutrition", "sleep", "memory",
   "climate", "neuroscience", "microbiome", "cognitive science", "public health",
   "linguistics", "social behavior", "exercise physiology", "decision making",
   "circadian rhythm", "emotion", "habit formation", "attention", "aging",
-  "biodiversity", "marine biology", "materials science", "astronomy", "epidemiology"
+  "biodiversity", "marine biology", "materials science", "astronomy", "epidemiology",
+  "animal cognition", "dreams", "human perception", "music and the brain",
+  "placebo effect", "procrastination", "misinformation", "sense of smell",
+  "gut brain axis", "physics of everyday life", "creativity", "curiosity",
+  "why humans", "surprising", "counterintuitive"
 ];
 
 // Reconstruct plain text from OpenAlex's abstract_inverted_index (word -> [positions]).

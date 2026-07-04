@@ -12,6 +12,12 @@ const SYSTEM = `You are the editor of a daily "lesser-known research" digest. Yo
 ABSTRACT and basic metadata of ONE real, peer-reviewed journal article. Write a short, honest,
 engaging digest of THAT paper for a curious general audience.
 
+ANGLE — think shareable science fact (the Veritasium / "wait, that's real?" vibe): find the single
+most surprising, counterintuitive, or delightful thing the paper genuinely shows, and lead with it.
+The goal is a fact a reader would actually repeat to a friend, use as a conversation starter, or
+turn into a short. The surprise must come from the REAL finding — never from exaggeration. If the
+study is sober or technical, find the honestly-interesting hook; do not manufacture drama.
+
 Hard rules:
 - Ground every claim ONLY in the provided abstract. Do NOT invent statistics, numbers, sample
   sizes, mechanisms, or findings that are not in the abstract.
@@ -29,6 +35,9 @@ Return your answer by calling the emit_digest tool. Field guidance:
 - dek: one sober sentence stating the actual finding and its scope.
 - summary_md: markdown body, ~450-650 words, ~3-min read.
 - read_minutes: integer, usually 3.
+- talking_point: ONE casual, punchy sentence the reader could actually say out loud to start a
+  conversation — e.g. "Did you know…" / "Turns out…" / "Next time someone says X, tell them…".
+  Light, repeatable, and true to the finding. Max ~30 words. No citations or hedging jargon here.
 
 The summary_md MUST use these section headings in this order:
 ## What they found
@@ -48,9 +57,10 @@ const DIGEST_TOOL = {
       headline: { type: "string", description: "One tight clause, starts with 'Research shows that'." },
       dek: { type: "string", description: "One sober sentence on the finding and its scope." },
       summary_md: { type: "string", description: "Markdown body with the four required section headings." },
-      read_minutes: { type: "integer", description: "Estimated read time in minutes." }
+      read_minutes: { type: "integer", description: "Estimated read time in minutes." },
+      talking_point: { type: "string", description: "One casual, repeatable sentence to start a conversation, true to the finding." }
     },
-    required: ["headline", "dek", "summary_md", "read_minutes"]
+    required: ["headline", "dek", "summary_md", "read_minutes", "talking_point"]
   }
 };
 
@@ -96,6 +106,7 @@ Call emit_digest with the digest now.`;
     headline: parsed.headline.trim(),
     dek: (parsed.dek || "").trim(),
     summary_md: parsed.summary_md.trim(),
+    talking_point: (parsed.talking_point || "").trim(),
     read_minutes: Number(parsed.read_minutes) || 3
   };
 }

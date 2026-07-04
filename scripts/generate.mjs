@@ -77,6 +77,7 @@ async function main() {
     read_minutes: written.read_minutes,
     topic: found.topic.replace(/\b\w/g, (c) => c.toUpperCase()),
     summary_md: written.summary_md,
+    talking_point: written.talking_point,
     paper: found.paper // links/metadata straight from OpenAlex, not the model
   };
 

@@ -128,6 +128,10 @@
       '<h1 class="headline">' + esc(entry.headline) + "</h1>" +
       (entry.dek ? '<p class="dek">' + esc(entry.dek) + "</p>" : "") +
       '<div class="body">' + renderMarkdown(entry.summary_md) + "</div>" +
+      (entry.talking_point
+        ? '<aside class="talking-point"><span class="tp-tag">Conversation starter</span>' +
+          esc(entry.talking_point) + "</aside>"
+        : "") +
       '<section class="source-card">' +
         "<h3>The source</h3>" +
         '<p class="source-title">' + esc(p.title || entry.headline) + "</p>" +
@@ -177,21 +181,75 @@
     return exact || fallback || manifest[0] || null;
   }
 
-  fetch("content/index.json", { cache: "no-cache" })
-    .then(function (r) { if (!r.ok) throw new Error(); return r.json(); })
-    .then(function (manifest) {
-      if (!Array.isArray(manifest) || !manifest.length) throw new Error("empty");
-      manifest.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
-      var chosen = pickEntry(manifest);
-      if (!chosen) throw new Error("none");
-      var slug = chosen.slug || chosen.date;
-      return fetch("content/" + slug + ".json", { cache: "no-cache" })
-        .then(function (r) { if (!r.ok) throw new Error(); return r.json(); });
-    })
-    .then(render)
-    .catch(function () {
-      showError("No research to show yet. Once the daily generator publishes an entry, it will appear here.");
-    });
+  var currentDate = null;
+  function loadLatest() {
+    return fetch("content/index.json", { cache: "no-cache" })
+      .then(function (r) { if (!r.ok) throw new Error(); return r.json(); })
+      .then(function (manifest) {
+        if (!Array.isArray(manifest) || !manifest.length) throw new Error("empty");
+        manifest.sort(function (a, b) { return a.date < b.date ? 1 : -1; });
+        var chosen = pickEntry(manifest);
+        if (!chosen) throw new Error("none");
+        var slug = chosen.slug || chosen.date;
+        return fetch("content/" + slug + ".json", { cache: "no-cache" })
+          .then(function (r) { if (!r.ok) throw new Error(); return r.json(); });
+      })
+      .then(function (entry) { currentDate = entry.date; render(entry); return entry.date; });
+  }
+
+  loadLatest().catch(function () {
+    showError("No research to show yet. Once the daily generator publishes an entry, it will appear here.");
+  });
+
+  /* ---------- Countdown to the next refresh (00:00 Singapore = 16:00 UTC) ---------- */
+  (function countdown() {
+    var timeEl = document.getElementById("cd-time");
+    var wrap = document.getElementById("countdown");
+    var labelEl = wrap.querySelector(".cd-label");
+    if (!timeEl) return;
+
+    function nextRefresh() {
+      var now = new Date();
+      var t = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 16, 0, 0, 0));
+      if (now.getTime() >= t.getTime()) t.setUTCDate(t.getUTCDate() + 1);
+      return t;
+    }
+    function two(n) { return (n < 10 ? "0" : "") + n; }
+
+    var target = nextRefresh();
+    var polling = false;
+
+    function pollForNew() {
+      var prev = currentDate;
+      var iv = setInterval(function () {
+        loadLatest().then(function (date) {
+          if (date && date !== prev) {
+            clearInterval(iv);
+            polling = false;
+            wrap.classList.remove("refreshing");
+            labelEl.textContent = "Next study in";
+            target = nextRefresh();
+          }
+        }).catch(function () {});
+      }, 30000);
+    }
+
+    function tick() {
+      var ms = target.getTime() - Date.now();
+      if (ms <= 0) {
+        wrap.classList.add("refreshing");
+        labelEl.textContent = "Fresh research";
+        timeEl.textContent = "dropping…";
+        if (!polling) { polling = true; pollForNew(); }
+        return;
+      }
+      var s = Math.floor(ms / 1000);
+      timeEl.textContent = two(Math.floor(s / 3600)) + ":" + two(Math.floor((s % 3600) / 60)) + ":" + two(s % 60);
+    }
+
+    tick();
+    setInterval(tick, 1000);
+  })();
 
   /* ---------- PWA: register service worker (offline + installable) ---------- */
   if ("serviceWorker" in navigator) {
