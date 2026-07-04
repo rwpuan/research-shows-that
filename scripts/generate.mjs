@@ -15,7 +15,12 @@ const MAILTO = process.env.OPENALEX_MAILTO || "";
 function todayISO() {
   // Allow override via DATE=YYYY-MM-DD for backfilling/testing.
   if (process.env.DATE) return process.env.DATE;
-  return new Date().toISOString().slice(0, 10);
+  // Stamp entries in Singapore time (UTC+8) so the date matches the local
+  // midnight refresh. en-CA formats as YYYY-MM-DD.
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Singapore",
+    year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(new Date());
 }
 
 async function readJSON(path, fallback) {

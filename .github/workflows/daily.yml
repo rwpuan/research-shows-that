@@ -2,7 +2,7 @@ name: Publish daily research
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # 06:00 UTC daily (GitHub may delay a few minutes)
+    - cron: "0 16 * * *"  # 16:00 UTC = 00:00 Singapore time (UTC+8); GitHub may delay a few min
   workflow_dispatch:        # manual "Run workflow" button
     inputs:
       date:
