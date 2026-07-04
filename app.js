@@ -9,11 +9,20 @@
   var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
   root.setAttribute("data-theme", stored || (prefersDark ? "dark" : "light"));
 
+  // Keep the browser/status-bar color in sync with the active theme (incl. manual toggle).
+  function syncThemeColor() {
+    var dark = root.getAttribute("data-theme") === "dark";
+    var metas = document.querySelectorAll('meta[name="theme-color"]');
+    for (var i = 0; i < metas.length; i++) metas[i].setAttribute("content", dark ? "#16150f" : "#faf9f7");
+  }
+  syncThemeColor();
+
   var toggle = document.getElementById("theme-toggle");
   toggle.addEventListener("click", function () {
     var next = root.getAttribute("data-theme") === "dark" ? "light" : "dark";
     root.setAttribute("data-theme", next);
     try { localStorage.setItem("theme", next); } catch (e) {}
+    syncThemeColor();
   });
 
   /* ---------- Toast ---------- */
@@ -183,4 +192,11 @@
     .catch(function () {
       showError("No research to show yet. Once the daily generator publishes an entry, it will appear here.");
     });
+
+  /* ---------- PWA: register service worker (offline + installable) ---------- */
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker.register("./sw.js").catch(function () {});
+    });
+  }
 })();
