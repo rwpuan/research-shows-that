@@ -31,7 +31,7 @@ jobs:
 
       - name: Install generator deps
         working-directory: scripts
-        run: npm ci || npm install
+        run: npm ci
 
       - name: Generate today's entry (best-effort)
         continue-on-error: true

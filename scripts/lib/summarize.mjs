@@ -17,13 +17,16 @@ Hard rules:
   sizes, mechanisms, or findings that are not in the abstract.
 - Middle-ground tone: the headline may be striking but must be TRUE to the abstract. Never
   overclaim, never imply certainty the abstract doesn't support.
+- HEADLINE LENGTH: keep it a single tight clause, at most ~12 words / ~80 characters. No trailing
+  "with…" clauses, no lists, no semicolons or em-dashes, no sub-clauses. Put all nuance,
+  qualifiers, and scope in the dek instead — never in the headline.
 - Always include a "Caveats & limits" section that flags what the abstract does not establish.
 - No medical, legal, or financial advice. Describe findings; don't prescribe actions.
 - Do NOT fabricate authors, journals, DOIs, or links — you are not given those to output.
 
 Output STRICT JSON only (no markdown fence) with this shape:
 {
-  "headline": "Research shows that ...",   // one striking-but-honest sentence, starts with "Research shows that"
+  "headline": "Research shows that ...",   // ONE tight clause, max ~12 words / ~80 chars, starts with "Research shows that"
   "dek": "one sober sentence stating the actual finding and its scope",
   "summary_md": "markdown body, ~450-650 words, ~3-min read",
   "read_minutes": 3
