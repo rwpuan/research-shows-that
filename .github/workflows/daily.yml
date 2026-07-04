@@ -1,0 +1,62 @@
+name: Publish daily research
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily (GitHub may delay a few minutes)
+  workflow_dispatch:        # manual "Run workflow" button
+
+permissions:
+  contents: write   # commit the new content file
+  pages: write      # deploy to Pages
+  id-token: write
+
+concurrency:
+  group: daily-research
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install generator deps
+        working-directory: scripts
+        run: npm ci || npm install
+
+      - name: Generate today's entry
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+        run: node scripts/generate.mjs
+
+      - name: Commit new content
+        run: |
+          git config user.name "research-daily-bot"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain content)" ]; then
+            git add content
+            git commit -m "content: daily research for $(date -u +%F)"
+            git push
+          else
+            echo "No content changes to commit."
+          fi
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .   # static site is the repo root
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

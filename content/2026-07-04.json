@@ -1,0 +1,19 @@
+{
+  "date": "2026-07-04",
+  "headline": "Research shows that a moment of awe can make you feel physically smaller",
+  "dek": "Across four lab and field studies, feelings of awe were linked to people estimating their own body as smaller — and a personality trait called 'absorption' amplified the effect.",
+  "read_minutes": 3,
+  "topic": "Psychology",
+  "summary_md": "## What they found\n\nAwe — the feeling you get when you stand in front of something vast, whether a mountain range or a cathedral — is often described as making you feel **small and insignificant**. This paper asked whether that shrinking feeling is more than a metaphor.\n\nAcross **four studies** combining lab experiments and field experiments, the researchers reported that feelings of awe were associated with **smaller estimates of one's own body size**. In other words, when people felt awe, they literally judged their body to be smaller than they otherwise would.\n\nA second thread ran through the results: a personality trait called **absorption** — the tendency to get fully immersed in an experience — was a strong predictor of awe. People who scored high on absorption reported stronger awe overall, regardless of how the situation was set up. And when the researchers experimentally nudged people to become more absorbed in an external stimulus, their reported awe grew stronger too.\n\n## How they studied it\n\nThe team ran a series of four studies using **both lab-based and field settings**, and used experimental manipulations rather than only surveys — including instructing some participants to get absorbed in an external stimulus to see whether that changed how much awe they felt. This mix lets them look at whether the awe–body-size link held up outside a controlled room.\n\n## Caveats & limits\n\n- The abstract reports **associations** between awe and smaller body-size estimates; treat the causal story cautiously beyond what the manipulations directly tested.\n- \"Smaller body size estimate\" is a specific measured judgment, **not** a claim that people physically shrink.\n- Sample sizes, populations, and effect sizes aren't given here — the source paper is the place to check how large and how robust these effects are.\n- This is a single set of studies from **2016**; findings gain weight when independently replicated.\n\n## Why it matters\n\nIt gives a concrete, bodily handle on an emotion usually discussed in vague terms. If awe reliably shifts how we perceive our own size and pulls attention outward, that has implications for wellbeing, design of restorative spaces, and how we understand \"self-transcendent\" emotions. As always: read the paper before you quote the finding.",
+  "paper": {
+    "title": "'Standing in Awe': The Effects of Awe on Body Perception and the Relation with Absorption",
+    "authors": ["Michiel van Elk", "Annika K. Karinen", "Eva Specker", "Eftychia Stamkou", "Matthijs Baas"],
+    "journal": "Collabra",
+    "year": 2016,
+    "doi": "https://doi.org/10.1525/collabra.36",
+    "landing_url": "https://doi.org/10.1525/collabra.36",
+    "openalex_id": "https://openalex.org/W2311039515",
+    "cited_by_count": 109,
+    "is_open_access": true
+  }
+}

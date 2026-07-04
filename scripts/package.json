@@ -1,0 +1,16 @@
+{
+  "name": "research-daily-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Daily generator: pulls a peer-reviewed paper from OpenAlex and summarizes it with Claude.",
+  "scripts": {
+    "generate": "node generate.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
