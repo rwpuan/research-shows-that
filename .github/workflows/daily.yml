@@ -28,11 +28,17 @@ jobs:
         working-directory: scripts
         run: npm ci || npm install
 
-      - name: Generate today's entry
+      - name: Generate today's entry (best-effort)
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
-        run: node scripts/generate.mjs
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then
+            echo "No ANTHROPIC_API_KEY set yet — skipping generation and deploying existing content."
+            exit 0
+          fi
+          node scripts/generate.mjs
 
       - name: Commit new content
         run: |
