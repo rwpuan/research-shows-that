@@ -79,6 +79,20 @@ Useful env vars:
 Your site goes live at `https://<user>.github.io/<repo>/`. The daily commit also keeps the cron
 alive (GitHub only pauses schedules after 60 days of no repo activity).
 
+## Install on your phone (PWA)
+
+The site is a Progressive Web App — it installs to the home screen and opens full-screen
+(no browser chrome), and works offline (last-seen entry is cached).
+
+- **iPhone/iPad (Safari):** open the site → tap **Share** → **Add to Home Screen** → **Add**.
+- **Android (Chrome):** open the site → tap **⋮** → **Install app** / **Add to Home screen**
+  (Chrome may also show an install banner automatically).
+
+PWA files: [`manifest.webmanifest`](manifest.webmanifest), [`sw.js`](sw.js) (offline cache),
+and [`icons/`](icons/) (generated with `python3` + Pillow — see the icon recipe in git history).
+The service worker uses network-first for the daily content (so it stays fresh) and
+stale-while-revalidate for the app shell. Bump `CACHE` in `sw.js` when you change the shell.
+
 ## Cost
 
 Hosting is **$0**. OpenAlex is free. The one Claude call per day is a fraction of a cent (Haiku) to
