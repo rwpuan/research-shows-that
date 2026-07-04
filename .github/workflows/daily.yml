@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 6 * * *"   # 06:00 UTC daily (GitHub may delay a few minutes)
   workflow_dispatch:        # manual "Run workflow" button
+    inputs:
+      date:
+        description: "Generate for a specific date (YYYY-MM-DD). Leave blank for today."
+        required: false
+        default: ""
 
 permissions:
   contents: write   # commit the new content file
@@ -33,6 +38,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO }}
+          DATE: ${{ inputs.date }}
         run: |
           if [ -z "$ANTHROPIC_API_KEY" ]; then
             echo "No ANTHROPIC_API_KEY set yet — skipping generation and deploying existing content."
