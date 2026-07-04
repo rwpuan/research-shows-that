@@ -129,7 +129,7 @@
       (entry.dek ? '<p class="dek">' + esc(entry.dek) + "</p>" : "") +
       '<div class="body">' + renderMarkdown(entry.summary_md) + "</div>" +
       (entry.talking_point
-        ? '<aside class="talking-point"><span class="tp-tag">Use this as a conversation starter next time to impress your friends</span>' +
+        ? '<aside class="talking-point"><span class="tp-tag">Impress your friends</span>' +
           esc(entry.talking_point) + "</aside>"
         : "") +
       '<section class="source-card">' +

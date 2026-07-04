@@ -201,11 +201,12 @@ main { padding: 0 1.25rem 4rem; }
 .tp-tag {
   display: block;
   font-family: var(--sans);
-  font-size: 0.74rem;
-  letter-spacing: 0.01em;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--accent);
   font-weight: 700;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.35rem;
 }
 
 /* ---------- Source card ---------- */
