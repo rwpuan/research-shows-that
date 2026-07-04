@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-05",
+  "headline": "Research shows that word frequency alone barely scratches the surface of language learning",
+  "dek": "A 2015 survey in Language Learning maps how corpus-based statistics — from dispersion to surprisal to Zipfian distributions — capture the cognitive realities of how humans actually acquire and use language, well beyond simple word counts.",
+  "read_minutes": 3,
+  "topic": "Linguistics",
+  "summary_md": "## What they found\n\nMost people assume that the more often you hear a word, the better you learn it. Raw frequency is, after all, the classic measure in language research. But this paper argues that **frequency is just one piece of a much richer statistical puzzle**.\n\nThe survey identifies a cluster of psycholinguistic concepts — **entrenchment, dispersion, contingency, surprisal, and Zipfian distributions** — that together paint a far more complete picture of how linguistic units are stored and processed in the mind. For example:\n\n- **Dispersion** asks not just *how often* a word appears in a corpus, but *how evenly spread* it is across different contexts. A word that appears 1,000 times in a single text is cognitively very different from one that appears 1,000 times across many varied situations.\n- **Contingency** captures the strength of association between two co-occurring elements — relevant to how constructions and collocations get mentally cemented.\n- **Surprisal** reflects how unexpected a linguistic unit is given its context, which has direct ties to processing difficulty.\n- **Zipfian distributions** — the famous power-law pattern where a tiny number of words account for the vast majority of usage — turn out to be deeply relevant to how linguistic knowledge is structured cognitively.\n\nThe paper frames all of these not as dry statistical tools but as **windows into cognitive and psycholinguistic processes**: how language is entrenched in memory, how it is acquired, and how it is deployed in real use.\n\n## How they studied it\n\nThis is a **survey and synthesis paper**, not an empirical experiment. The authors map the theoretical landscape of usage-based and exemplar-based linguistics, then systematically review how corpus-linguistic methods have been applied to operationalize key psycholinguistic notions. The approach ties together strands from cognitive linguistics, corpus linguistics, and psycholinguistics into a unified methodological overview.\n\n## Caveats & limits\n\nBecause this is a **review article**, it does not present new experimental data or test hypotheses directly. The claims about cognitive relevance of these measures are grounded in the existing literature being surveyed, not in new findings reported here. Readers should treat this as a **map of the field** rather than a report of a single discovery. The abstract also does not specify which languages or learner populations the reviewed studies cover, so the scope of generalizability of the surveyed methods is unclear from the abstract alone.\n\n## Why it matters\n\nLanguage learning research and teaching have long been anchored to simple frequency lists — \"learn the 1,000 most common words first.\" This paper suggests the field has moved, and should continue to move, toward **richer, multidimensional statistical portraits of language**. For app designers, curriculum developers, and cognitive scientists alike, understanding that a word's cognitive weight depends on *where* it appears, *how predictably*, and *how surprisingly* — not just *how often* — could reshape how we think about teaching and studying language.",
+  "talking_point": "Turns out \"just count how often a word appears\" is one of the weakest ways to understand how we actually learn language — researchers now track things like how *spread out* and how *surprising* a word is across contexts.",
+  "paper": {
+    "title": "Statistical Measures for Usage‐Based Linguistics",
+    "authors": [
+      "Stefan Τh. Gries",
+      "Nick C. Ellis"
+    ],
+    "journal": "Language Learning",
+    "year": 2015,
+    "doi": "https://doi.org/10.1111/lang.12119",
+    "landing_url": "https://doi.org/10.1111/lang.12119",
+    "openalex_id": "https://openalex.org/W1960264410",
+    "cited_by_count": 219,
+    "is_open_access": true
+  }
+}
