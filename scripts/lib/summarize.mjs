@@ -24,13 +24,11 @@ Hard rules:
 - No medical, legal, or financial advice. Describe findings; don't prescribe actions.
 - Do NOT fabricate authors, journals, DOIs, or links — you are not given those to output.
 
-Output STRICT JSON only (no markdown fence) with this shape:
-{
-  "headline": "Research shows that ...",   // ONE tight clause, max ~12 words / ~80 chars, starts with "Research shows that"
-  "dek": "one sober sentence stating the actual finding and its scope",
-  "summary_md": "markdown body, ~450-650 words, ~3-min read",
-  "read_minutes": 3
-}
+Return your answer by calling the emit_digest tool. Field guidance:
+- headline: ONE tight clause, max ~12 words / ~80 chars, starts with "Research shows that".
+- dek: one sober sentence stating the actual finding and its scope.
+- summary_md: markdown body, ~450-650 words, ~3-min read.
+- read_minutes: integer, usually 3.
 
 The summary_md MUST use these section headings in this order:
 ## What they found
@@ -40,6 +38,21 @@ The summary_md MUST use these section headings in this order:
 
 Use short paragraphs and occasional bold. Do not include the paper's title/authors/links in the
 body (those are shown separately).`;
+
+const DIGEST_TOOL = {
+  name: "emit_digest",
+  description: "Return the finished daily research digest.",
+  input_schema: {
+    type: "object",
+    properties: {
+      headline: { type: "string", description: "One tight clause, starts with 'Research shows that'." },
+      dek: { type: "string", description: "One sober sentence on the finding and its scope." },
+      summary_md: { type: "string", description: "Markdown body with the four required section headings." },
+      read_minutes: { type: "integer", description: "Estimated read time in minutes." }
+    },
+    required: ["headline", "dek", "summary_md", "read_minutes"]
+  }
+};
 
 export async function summarize({ abstract, paper }) {
   const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
@@ -54,31 +67,27 @@ ABSTRACT:
 ${abstract}
 """
 
-Write the digest as strict JSON now.`;
+Call emit_digest with the digest now.`;
 
+  // Structured tool output: the API returns an already-parsed object, so free-text
+  // fields (which may contain quotes, newlines, etc.) never have to survive JSON.parse.
   const resp = await client.messages.create({
     model: MODEL,
     max_tokens: 1600,
     system: SYSTEM,
+    tools: [DIGEST_TOOL],
+    tool_choice: { type: "tool", name: "emit_digest" },
     messages: [{ role: "user", content: userMsg }]
   });
 
-  const text = resp.content
-    .filter((b) => b.type === "text")
-    .map((b) => b.text)
-    .join("")
-    .trim();
-
-  const jsonStr = text.replace(/^```(?:json)?/i, "").replace(/```$/i, "").trim();
-  let parsed;
-  try {
-    parsed = JSON.parse(jsonStr);
-  } catch (e) {
-    throw new Error("Model did not return valid JSON:\n" + text);
+  const toolUse = resp.content.find((b) => b.type === "tool_use" && b.name === "emit_digest");
+  if (!toolUse) {
+    throw new Error("Model did not call emit_digest:\n" + JSON.stringify(resp.content));
   }
+  const parsed = toolUse.input;
 
   if (!parsed.headline || !parsed.summary_md) {
-    throw new Error("Model JSON missing required fields: " + text);
+    throw new Error("Digest missing required fields: " + JSON.stringify(parsed));
   }
   if (!/^research shows that/i.test(parsed.headline)) {
     parsed.headline = "Research shows that " + parsed.headline.replace(/^[A-Z]/, (c) => c.toLowerCase());
