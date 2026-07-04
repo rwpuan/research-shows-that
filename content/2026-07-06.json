@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-06",
+  "headline": "Research shows that your microbiome shapes your social life — and vice versa",
+  "dek": "A 2015 review in Current Opinion in Behavioral Sciences highlights evidence that social interactions reshape the bacterial communities living inside animals, while those same microbes can turn around and influence social behavior by producing chemical signals and acting directly on the nervous system.",
+  "read_minutes": 3,
+  "topic": "Social Behavior",
+  "summary_md": "## What they found\n\nThe relationship between animals and their gut bacteria turns out to be a two-way street — and **social behavior is right in the middle of it**.\n\nOn one side: who you hang out with changes your microbiome. Social interactions can shift the taxonomic makeup (which species of bacteria are present) and even the genic composition (which genes those bacteria carry) of an animal's microbial community. Those shifts aren't trivial — they can alter what the microbiome *does*, with potential ripple effects on the host's fitness and survival.\n\nOn the other side: your bacteria may be quietly shaping how you behave socially in the first place. Microbes appear to do this through two routes — **producing chemical signals** that animals use to communicate with one another, and **acting directly on the host's nervous system**. In other words, the bugs inside you may have a say in how you interact with the world around you.\n\n## How they studied it\n\nThis is a **review paper**, meaning the authors synthesized and highlighted a collection of recent studies rather than conducting a single experiment. They focused specifically on research that had uncovered links between animal microbiomes and social behavior, drawing attention to what they characterized as two especially surprising and important discoveries. The review covers animals broadly, not just humans, and frames the findings within the context of both host behavioral evolution and the transmission strategies that bacteria themselves might \"benefit\" from.\n\n## Caveats & limits\n\nBecause this is a review — and one from 2015 — several important caveats apply:\n\n- **Causation vs. correlation**: The abstract does not specify which individual studies established clear causal links versus associations. Showing that social animals share microbes, for example, doesn't automatically prove those microbes *drive* the socializing.\n- **Which animals?** The review covers animals generally; findings from mice, insects, or fish may not translate neatly to humans.\n- **Mechanism gaps**: While microbes \"directly influencing host nervous systems\" is striking, the abstract doesn't detail *how* this happens — those mechanisms may still be poorly understood or vary widely by species.\n- **Field has moved on**: A decade of additional research has refined (and in some cases complicated) these ideas since 2015.\n- **No medical claims**: Nothing here tells us how to engineer our own social behavior or health through microbiome changes.\n\n## Why it matters\n\nThe standard story of the microbiome focuses on digestion, immunity, and disease. This review pushes into stranger, more fascinating territory: **the microbiome as a social actor**. If bacteria can influence the chemical signals animals use to recognize kin, choose mates, or coordinate groups — and if socializing reshuffles those bacterial communities — then microbial evolution and the evolution of social behavior may be deeply entangled. That's a genuinely novel lens for behavioral ecology, and it raises a provocative question: when a social animal \"chooses\" its companions, are its bacteria helping to make that choice?",
+  "talking_point": "Turns out your gut bacteria don't just affect your digestion — they may actually influence who you socialize with, and the people you spend time with change your microbiome right back.",
+  "paper": {
+    "title": "Social behavior and the microbiome",
+    "authors": [
+      "Elizabeth A. Archie",
+      "Jenny Tung"
+    ],
+    "journal": "Current Opinion in Behavioral Sciences",
+    "year": 2015,
+    "doi": "https://doi.org/10.1016/j.cobeha.2015.07.008",
+    "landing_url": "https://doi.org/10.1016/j.cobeha.2015.07.008",
+    "openalex_id": "https://openalex.org/W1498830788",
+    "cited_by_count": 237,
+    "is_open_access": true
+  }
+}
