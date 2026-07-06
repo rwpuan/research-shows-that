@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-07",
+  "headline": "Research shows that saving ICU patients may be creating long-term victims",
+  "dek": "A 2015 critical care review argues that while ICU mortality from sepsis has fallen dramatically, 60–80% of survivors are left with lasting physical impairment — and elite sports science may hold the keys to fixing that.",
+  "read_minutes": 3,
+  "topic": "Exercise Physiology",
+  "summary_md": "## What they found\n\nModern intensive care has gotten remarkably good at keeping critically ill patients alive — but there's a troubling flip side. Over the same decade that hospital deaths from sepsis and critical illness fell significantly, the number of patients sent to rehabilitation settings **tripled**. And the problems don't stop at discharge: as many as half of all deaths in the first year after an ICU stay happen *after* the patient leaves the unit.\n\nFor those who do make it home, the picture is still grim. The authors cite data suggesting **60–80% of ICU \"survivors\"** suffer functional impairment or what clinicians call ICU-acquired weakness (ICU-AW), while **50–70%** experience lasting cognitive impairment. This leads the authors to pose an uncomfortable question: *\"Are we creating survivors… or are we creating victims?\"* — and to ask whether many ICU victories are, in fact, Pyrrhic ones.\n\nThe proposed solution is surprising: treat ICU recovery more like **elite athletic performance**. The paper argues that the tools and strategies used to optimize muscle function in top-tier sports — precise protein targets, anabolic support, and personalized exercise physiology testing — should be imported into the ICU and post-ICU care.\n\n## How they studied it\n\nThis is a **narrative review and perspective piece**, not a clinical trial. The authors synthesized existing evidence on ICU-acquired weakness, post-ICU outcomes, and emerging rehabilitation strategies to build a framework for future research and clinical practice. Key proposals include:\n\n- **Protein delivery of 1.2–2.0 g/kg/day**, mirroring targets used by athletes to prevent muscle breakdown.\n- **Anticatabolic agents** (such as beta-blockers) and **anabolic agents** (such as oxandrolone), drawing on evidence from burn patients who can remain in a catabolic state for up to two years post-injury.\n- **Bedside ultrasound** to measure lean body mass and muscle glycogen — inexpensive tools that could help clinicians identify when a patient transitions from acute illness to the recovery phase.\n- **Exercise physiology testing** to detect muscle mitochondrial dysfunction and guide a personalized target heart rate for rehabilitation, helping restore functional endurance.\n\n## Caveats & limits\n\nThis paper is a **perspective and review**, not a randomized controlled trial. The specific strategies proposed — ultrasound-guided muscle assessment, athlete-style nutrition protocols, anabolic pharmacotherapy — are presented as promising directions for future research, not as proven ICU standards. The outcome statistics cited (60–80% functional impairment, etc.) reflect the literature available in 2015 and may have shifted with evolving practice. The authors do not present new primary data, and the translation of elite sports science to critically ill patients involves biological and practical complexities not fully addressed in the abstract.\n\n## Why it matters\n\nICU care is typically measured by one metric: did the patient survive? This review challenges that framing head-on. If the majority of survivors leave with significant physical and cognitive disability, survival alone is an incomplete — and possibly misleading — definition of success. By drawing a direct parallel to sports performance science, the authors open a genuinely novel conversation about what \"recovery\" should mean in critical care, and what tools already exist to pursue it more ambitiously.",
+  "talking_point": "Turns out saving someone's life in the ICU doesn't mean much if 60–80% of survivors leave with lasting physical disability — and researchers think elite sports science might be the unlikely fix.",
+  "paper": {
+    "title": "Winning the war against ICU-acquired weakness: new innovations in nutrition and exercise physiology",
+    "authors": [
+      "Paul E. Wischmeyer",
+      "Iñigo San-Millán"
+    ],
+    "journal": "Critical Care",
+    "year": 2015,
+    "doi": "https://doi.org/10.1186/cc14724",
+    "landing_url": "https://doi.org/10.1186/cc14724",
+    "openalex_id": "https://openalex.org/W2186752172",
+    "cited_by_count": 150,
+    "is_open_access": true
+  }
+}
