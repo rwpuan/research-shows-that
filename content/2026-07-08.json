@@ -1,0 +1,29 @@
+{
+  "date": "2026-07-08",
+  "headline": "Research shows that conservation models fail not from bad math, but bad buy-in",
+  "dek": "A global literature review finds that models are underused in conservation decisions largely due to trust, communication, and participation gaps — and offers practical fixes for modellers.",
+  "read_minutes": 3,
+  "topic": "Decision Making",
+  "summary_md": "## What they found\n\nConservation managers routinely make high-stakes decisions — which species to protect, where to intervene, how to allocate scarce resources — under genuine uncertainty. Mathematical and computational models are built precisely to help with this. So why aren't they being used?\n\nThis global review of scientific and grey literature finds that the barriers are **less about technical shortcomings and more about human ones**: objections from decision-makers often centre on trust, communication failures, and a sense that modellers aren't speaking the same language as the people on the ground.\n\nThe authors argue that models offer two irreplaceable things: a systematic, transparent way to synthesise existing knowledge, and a sandbox for testing what might happen under different management choices. But those advantages only materialise if the people making decisions actually engage with — and trust — the models.\n\nTheir headline recommendation is to embed modelling within a **structured decision-making framework**, a stepwise process that forces clarity about objectives, alternatives, and trade-offs before a single equation is written. Rather than handing managers a finished model, this approach brings them into the process from the start.\n\n## How they studied it\n\nThe researchers conducted a review of both peer-reviewed scientific literature and grey literature (reports, policy documents, practitioner guides) to catalogue the most common objections raised against using models in conservation decision-making. They then matched each objection with practical, evidence-backed solutions drawn from theory, empirical studies, and best-practice case examples — essentially building a troubleshooting guide for modellers who want their work to actually influence real decisions.\n\nThe scope was explicitly **global**, meaning the patterns they identified span ecosystems, governance systems, and conservation contexts worldwide.\n\n## Caveats & limits\n\n- This is a **review and synthesis**, not an experimental or quantitative study — it does not measure how often objections occur or statistically rank their importance.\n- The solutions proposed are based on existing theory and examples; the abstract does not report a trial of whether implementing these recommendations actually increases model uptake.\n- \"Grey literature\" sources vary widely in rigour, and the selection process for which objections and solutions to include is not described in detail in the abstract.\n- The findings reflect the state of conservation science and decision-making **as of 2013**; the field has evolved since.\n\n## Why it matters\n\nThere's a persistent frustration in applied science: researchers build sophisticated tools that practitioners ignore. This paper flips the usual diagnosis. Instead of blaming managers for being \"anti-science,\" it asks modellers to examine their own practice — specifically how well they **communicate uncertainty, invite participation, and build trust**.\n\nThe emphasis on **participatory decision-making** is particularly striking. Bringing stakeholders into the modelling process isn't just good politics; the authors argue it improves the underlying knowledge base and leads to better conservation outcomes. The social dimension of scientific tools, in other words, isn't a soft add-on — it's load-bearing.\n\nFor anyone working at the science-policy interface (not just in conservation), the core message translates broadly: a model that sits in a journal is not the same as a model that changes a decision.",
+  "talking_point": "Turns out conservation models often go unused not because the science is bad, but because the modellers never built trust with the people actually making the decisions.",
+  "paper": {
+    "title": "Practical solutions for making models indispensable in conservation decision‐making",
+    "authors": [
+      "Prue Addison",
+      "Libby Rumpff",
+      "Sana Bau",
+      "Janet M. Carey",
+      "Yung En Chee",
+      "Frith Jarrad",
+      "Marissa F. McBride",
+      "Mark A. Burgman"
+    ],
+    "journal": "Diversity and Distributions",
+    "year": 2013,
+    "doi": "https://doi.org/10.1111/ddi.12054",
+    "landing_url": "https://doi.org/10.1111/ddi.12054",
+    "openalex_id": "https://openalex.org/W2014022087",
+    "cited_by_count": 242,
+    "is_open_access": true
+  }
+}
