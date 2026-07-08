@@ -1,0 +1,28 @@
+{
+  "date": "2026-07-09",
+  "headline": "Research shows that disrupting your body clock can trigger cancer and cognitive decline",
+  "dek": "A 2019 review in Frontiers in Physiology synthesizes evidence that circadian rhythm disruption — common in shift workers and frequent flyers — is linked to cognitive impairment, psychiatric illness, metabolic syndrome, abnormal cell growth, and cancer.",
+  "read_minutes": 3,
+  "topic": "Circadian Rhythm",
+  "summary_md": "## What they found\n\nYour body runs on a remarkably precise internal clock — a molecular system that coordinates nearly **all physiological activity** on a roughly 24-hour cycle. When that clock gets knocked out of sync with the outside world, the consequences go far beyond feeling groggy.\n\nThis review paper pulls together existing research to show that **circadian rhythm (CR) disruption is tied to a striking range of serious health conditions**: cognitive impairment, psychiatric illness, metabolic syndrome, abnormal development (dysplasia), and cancer. The evidence draws heavily from studies of two very modern groups — **jet-lagged travelers and shift workers** — people whose internal clocks are chronically misaligned with their environment.\n\nThe core idea is that the circadian clock isn't just about sleep. It's described here as \"a major regulatory factor for nearly all physiological activities,\" meaning that when it breaks down, the ripple effects touch metabolism, mental health, cell growth, and more.\n\n## How they studied it\n\nThis is a **review paper**, meaning the authors didn't run new experiments themselves. Instead, they systematically surveyed and synthesized prior research across several dimensions:\n\n- **Synchronizers** — the external cues (like light) that reset the body clock — and the methods used to study them in lab settings\n- **Monitoring and detection methods** for measuring circadian rhythms in research subjects\n- **Existing circadian rhythm databases**, which they evaluated for their strengths and gaps\n- **Experimental findings** that have characterized why and how circadian disruption occurs\n\nBy mapping the landscape of the field this way, the review aims to serve as a resource guide for future researchers studying CR-related diseases.\n\n## Caveats & limits\n\nBecause this is a **review article**, it synthesizes and frames existing work rather than generating new experimental data — so its conclusions are only as strong as the studies it draws from.\n\nThe abstract does **not specify**:\n- The number of studies reviewed or the criteria for including them\n- Whether the disease links are correlational or causal\n- How severe or prolonged CR disruption needs to be before health effects emerge\n- Whether the findings apply equally across all populations, ages, or types of shift work\n\nThe association between circadian disruption and conditions like cancer is a real area of active research, but \"linked to\" does not mean \"proven to directly cause.\" Individual risk will vary.\n\n## Why it matters\n\nShift work affects hundreds of millions of people globally, and jet travel is routine — yet we rarely think of schedule disruption as a genuine health hazard on par with diet or exercise. This review argues that **the body clock deserves to be taken seriously as a central pillar of health**, not a minor inconvenience to push through with caffeine.\n\nBy mapping the tools, databases, and experimental approaches available to researchers, the paper also nudges the field toward more standardized, comparable work in the future — which could eventually translate into better guidance for anyone whose life doesn't fit a neat sunrise-to-sunset schedule.",
+  "talking_point": "Turns out chronic jet lag and night-shift work aren't just exhausting — researchers have linked them to everything from memory problems and psychiatric illness all the way to cancer.",
+  "paper": {
+    "title": "New Insights Into the Circadian Rhythm and Its Related Diseases",
+    "authors": [
+      "Yanling Xie",
+      "Qingming Tang",
+      "Guangjin Chen",
+      "Mengru Xie",
+      "Shaoling Yu",
+      "Jiajia Zhao",
+      "Lili Chen"
+    ],
+    "journal": "Frontiers in Physiology",
+    "year": 2019,
+    "doi": "https://doi.org/10.3389/fphys.2019.00682",
+    "landing_url": "https://doi.org/10.3389/fphys.2019.00682",
+    "openalex_id": "https://openalex.org/W2955399147",
+    "cited_by_count": 244,
+    "is_open_access": true
+  }
+}
