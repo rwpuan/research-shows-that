@@ -1,0 +1,27 @@
+{
+  "date": "2026-07-12",
+  "headline": "Research shows that mindfulness practice shields soldiers' attention during intense training",
+  "dek": "A controlled study of military cohorts found that a practice-focused mindfulness program prevented attentional performance from degrading during high-demand predeployment training, while a lecture-only version and no training at all did not.",
+  "read_minutes": 3,
+  "topic": "Attention",
+  "summary_md": "## What they found\n\nSoldiers going through grueling predeployment training showed measurably worse attention over time — more mind-wandering, more lapses — compared to civilians going about their normal lives over the same period. That part isn't surprising. Here's what is: **soldiers who did a hands-on, practice-focused mindfulness program held their attentional performance steady**, finishing right alongside the civilians. Their minds, under enormous stress, stayed on task.\n\nA lecture-only mindfulness group — same total hours, but focused on *talking about* stress and resilience rather than actually practicing — saw their attention degrade almost as much as the group that received no training at all. The difference wasn't mindfulness as a concept; it was **mindfulness as a repeated exercise**.\n\nThe key metric was A', a sensitivity index measuring how well participants could sustain attention on a task without their minds drifting. By the end of the study period, the no-training military group scored lower than civilians, the lecture group showed similar decline, but the **practice-focused group stayed stable**.\n\n## How they studied it\n\nResearchers followed three military cohorts through an 8-week, 8-hour predeployment training period. Two groups received different variants of Mindfulness-based Mind Fitness Training (MMFT): one emphasizing hands-on training exercises (n = 40), and one emphasizing didactic content about stress and resilience (n = 40). A third military group received no training at all (n = 24). A civilian group (n = 45) with no mindfulness training served as an outside reference point.\n\nAll participants completed the **Sustained Attention to Response Task (SART)** — a computerized test that catches attentional lapses — at two time points: before and after the 8-week course period. This before-and-after design allowed the team to track whether attention improved, held steady, or declined across each group.\n\n## Caveats & limits\n\n- **Sample sizes are modest**, particularly for the no-training military control group (n = 24), so results should be interpreted with caution.\n- The study cannot tell us **why** practice-focused training works better — whether it's the volume of practice, the type of exercises, or some other factor.\n- Participants were not randomly assigned in a fully blinded trial; self-selection and group differences could influence results.\n- The abstract does not report on longer-term follow-up, so it's unknown whether attention benefits **persist** after training ends or into deployment itself.\n- Findings are specific to military predeployment cohorts under high operational demand — generalizability to other high-stress populations (medical workers, first responders, students) is plausible but untested here.\n\n## Why it matters\n\nHigh-demand environments — military training, emergency response, high-stakes workplaces — are precisely the conditions where attention matters most and is most likely to fail. This study adds evidence that **it's not enough to learn *about* mindfulness**; the benefit appears to come from actually doing the mental reps, much like physical fitness.\n\nThe finding also reframes how mindfulness programs are designed and evaluated. Curriculum that skips the practice in favor of information may feel productive but could leave participants no better off than doing nothing at all. For institutions looking to build cognitive resilience in high-stress personnel, the *format* of the training may be just as important as the content.",
+  "talking_point": "Turns out soldiers who actually practiced mindfulness exercises kept their attention sharp during brutal predeployment training — but the group that only sat through lectures about mindfulness degraded just as much as those who did nothing.",
+  "paper": {
+    "title": "Minds “At Attention”: Mindfulness Training Curbs Attentional Lapses in Military Cohorts",
+    "authors": [
+      "Amishi P. Jha",
+      "Alexandra B. Morrison",
+      "Justin Dainer‐Best",
+      "Suzanne C. Parker",
+      "Nina Rostrup",
+      "Elizabeth A. Stanley"
+    ],
+    "journal": "PLoS ONE",
+    "year": 2015,
+    "doi": "https://doi.org/10.1371/journal.pone.0116889",
+    "landing_url": "https://doi.org/10.1371/journal.pone.0116889",
+    "openalex_id": "https://openalex.org/W2141884993",
+    "cited_by_count": 219,
+    "is_open_access": true
+  }
+}
