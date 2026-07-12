@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-13",
+  "headline": "Research shows that \"aging in place\" can be undermined by the place itself",
+  "dek": "A qualitative longitudinal study finds that for older adults in deprived, rapidly changing urban neighborhoods, the very places meant to anchor them can become barriers to the policy ideal of aging in place.",
+  "read_minutes": 3,
+  "topic": "Aging",
+  "summary_md": "## What they found\n\nThe popular policy goal of \"aging in place\" — helping older people stay in their own homes, close to friends, family, and community — quietly assumes that those places remain stable and supportive over time. This research challenges that assumption head-on.\n\nThrough four in-depth case studies of older people living in **deprived urban neighborhoods undergoing rapid redevelopment and population turnover**, the study reveals a troubling paradox: the very neighborhoods where people are encouraged to age in place can themselves become **hostile and challenging environments** that undermine that goal.\n\nThe analysis shows that aging in place is a moving target, shaped simultaneously by **two sets of changes happening in parallel**: the shifting life-course circumstances of the individual (health, mobility, social networks), and the physical and social transformation of the neighborhood around them (urban regeneration, new residents, loss of familiar landmarks and services). When both are changing at once, older residents can find themselves stranded — still \"in place,\" but in a place that no longer resembles the one they chose to stay in.\n\n## How they studied it\n\nThe researchers used a **qualitative longitudinal design**, meaning they followed participants over time rather than capturing a single snapshot. The core of the paper is built around four in-depth case studies drawn from older people living in urban neighborhoods marked by **high deprivation and rapid population change** — conditions common in cities undergoing urban regeneration schemes.\n\nThis approach allowed the team to trace how the relationship between a person and their neighborhood **evolved** across time, capturing the interplay between individual aging and neighborhood change in a way that cross-sectional surveys cannot.\n\n## Caveats & limits\n\n- **Small, purposive sample.** Four case studies offer rich depth but cannot be statistically generalized to all older adults or all types of neighborhoods.\n- **Specific context.** The findings focus on high-deprivation, high-turnover urban neighborhoods. They may not apply equally to stable suburbs, rural areas, or more affluent city districts.\n- **Qualitative lens.** The study illuminates experiences and processes but does not measure outcomes like health or wellbeing in quantifiable terms.\n- The abstract does not specify the country or city of study, the time span of the longitudinal follow-up, or the total number of participants beyond the four focal cases.\n\n## Why it matters\n\nAging in place has become a cornerstone of elder-care policy around the world — in part because it is seen as both humane and cost-effective compared to institutional care. But this research points to a **blind spot in that policy framework**: it tends to treat \"place\" as a fixed backdrop rather than a dynamic actor in its own right.\n\nIf neighborhoods are simultaneously aging alongside their residents — losing services, gaining new populations, being physically redeveloped — then supporting older people to stay home may require **actively managing the places themselves**, not just the individuals within them. The paper calls for policy to account for both dimensions: the needs of people as they grow older *and* the changing character of the communities they live in. That's a more complex — and more honest — vision of what aging in place actually demands.",
+  "talking_point": "Turns out \"aging in place\" can backfire — if the neighborhood keeps changing around you, staying home doesn't mean staying connected.",
+  "paper": {
+    "title": "Aging in place and the places of aging: A longitudinal study",
+    "authors": [
+      "Camilla Lewis",
+      "Tine Buffel"
+    ],
+    "journal": "Journal of Aging Studies",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.jaging.2020.100870",
+    "landing_url": "https://doi.org/10.1016/j.jaging.2020.100870",
+    "openalex_id": "https://openalex.org/W3082519195",
+    "cited_by_count": 234,
+    "is_open_access": true
+  }
+}
