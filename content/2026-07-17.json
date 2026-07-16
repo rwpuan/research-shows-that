@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-17",
+  "headline": "Research shows that most women in physics grad programs face gender microaggressions",
+  "dek": "Interviews with 21 women in graduate physics and astronomy programs found that the majority experienced subtle sexist slights — microaggressions — while others reported overt harassment and discouragement, suggesting that gender discrimination is woven into everyday departmental culture.",
+  "read_minutes": 3,
+  "topic": "Astronomy",
+  "summary_md": "## What they found\n\nWhen researchers interviewed women in graduate-level physics and astronomy programs, the most common form of gender discrimination they reported wasn't dramatic, obvious harassment — it was **microaggressions**: the subtle, often ambiguous insults and slights that accumulate over time.\n\nThe majority of the 21 participants described experiencing these small but persistent acts of sexism. A subset reported no sexual discrimination at all. But another group faced **more overt \"hostile sexism\"** — including sexual harassment, gender-role stereotyping (being treated as though women don't belong in physics), and direct discouragement from continuing in the field.\n\nThe researchers emphasize that sexism in physics and astronomy doesn't always look like a dramatic confrontation. Much of it is quiet, everyday, and easy for bystanders to dismiss — which can make it harder for those experiencing it to name or address.\n\n## How they studied it\n\nThe team conducted **in-depth qualitative interviews** with 21 women enrolled in graduate physics and astronomy programs. They analyzed these interviews for individual accounts of sexist experiences, looking for patterns in the types and forms of discrimination described.\n\nThe study is part of a broader *Focused Collection on Gender in Physics* published in *Physical Review Physics Education Research*, a peer-reviewed journal dedicated to physics education scholarship. The authors note that sexism in this specific field has been under-examined and that there is currently **no shared vocabulary** in the physics education literature for even talking about it — so part of the paper's goal is to offer that starting language.\n\n## Caveats & limits\n\n- **Small, non-random sample:** With 21 participants, the study is qualitative and exploratory, not statistically representative of all women in physics and astronomy graduate programs.\n- **Self-reported experiences:** The findings rely on how individuals characterize and recall events, which is standard for this methodology but means experiences vary in interpretation.\n- **No comparison group:** The study does not compare women's experiences to those of men or non-binary students, so relative rates of discrimination cannot be inferred.\n- **Scope is U.S. graduate programs** (implied by the research context) — findings may not generalize to other countries or career stages.\n- The paper is from 2016; departmental cultures may have shifted since then.\n\n## Why it matters\n\nPhysics and astronomy consistently rank among the fields with the **lowest representation of women** at advanced levels. This research argues that sexism — especially its subtle, microaggression-based forms — is a live and underacknowledged part of that picture, not just a historical relic.\n\nBy giving departments concrete language to identify and discuss these behaviors, the study aims to move the conversation from \"does this happen?\" to \"how do we stop it?\" The authors call on departments to both **eliminate sexist culture** and actively educate students about microaggressions — precisely because their subtlety makes them easy to overlook or rationalize away.",
+  "talking_point": "Did you know that in a study of women in physics and astronomy grad programs, the most common form of sexism wasn't overt harassment — it was quiet, everyday microaggressions that most people around them probably never even noticed?",
+  "paper": {
+    "title": "Gender discrimination in physics and astronomy: Graduate student experiences of sexism and gender microaggressions",
+    "authors": [
+      "Ramón S. Barthelemy",
+      "Melinda McCormick",
+      "Charles Henderson"
+    ],
+    "journal": "Physical Review Physics Education Research",
+    "year": 2016,
+    "doi": "https://doi.org/10.1103/physrevphyseducres.12.020119",
+    "landing_url": "https://doi.org/10.1103/physrevphyseducres.12.020119",
+    "openalex_id": "https://openalex.org/W2492981411",
+    "cited_by_count": 204,
+    "is_open_access": true
+  }
+}
