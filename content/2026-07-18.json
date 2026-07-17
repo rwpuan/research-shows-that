@@ -1,0 +1,24 @@
+{
+  "date": "2026-07-18",
+  "headline": "Research shows that cholera's seventh pandemic is still ongoing",
+  "dek": "A 2019 review in Vaccine outlines that cholera has caused seven recorded pandemics since 1817, with the latest still active, driven by poverty, overcrowding, and poor water and sanitation in parts of Asia, Africa, and the Americas.",
+  "read_minutes": 3,
+  "topic": "Epidemiology",
+  "summary_md": "## What they found\n\nThe world is still living through a cholera pandemic — and has been for some time. This review documents that **seven cholera pandemics have been recorded since the first in 1817**, and the seventh is not yet over. Far from being a disease of the distant past, cholera remains an active public health threat in many of the world's most impoverished regions.\n\nThe paper emphasizes that the conditions driving cholera outbreaks are well understood: **overcrowding, poverty, and insufficient access to clean water and sanitation** consistently elevate risk. The disease's epidemiology — meaning how and where it spreads — continues to shift across affected regions in **Asia, Africa, and the Americas**.\n\n## How they studied it\n\nThis is a review paper, synthesizing existing knowledge on the epidemiology of cholera rather than presenting new primary data. The authors surveyed the historical record of cholera pandemics and the current state of the disease across the regions where it remains endemic or epidemic. The focus is on the social and environmental conditions that sustain transmission.\n\n## Caveats & limits\n\nBecause this is a review of existing literature rather than an original field study, it does not present new case counts, outbreak data, or statistical analyses of its own. The abstract does not specify which exact regions within Asia, Africa, or the Americas are most affected, nor does it quantify the burden of disease. The review was published in 2019, so developments in cholera epidemiology since then — including the devastating outbreak in Haiti and ongoing crises elsewhere — are not captured here. The abstract also does not detail the mechanisms of how the seventh pandemic began or how it differs from prior ones.\n\n## Why it matters\n\nIt is easy to think of cholera as a historical curiosity — something that terrorized 19th-century cities before modern plumbing solved it. **This review is a reminder that the story isn't over.** The same social determinants that fueled past pandemics (poverty, crowding, lack of clean water) continue to make populations vulnerable today. Understanding cholera as an *ongoing* pandemic rather than a closed chapter of history has real implications for global health funding, vaccine deployment, and infrastructure investment in the regions still bearing its burden.",
+  "talking_point": "Did you know the world is technically still in the middle of a cholera pandemic — one that started before your grandparents were born and hasn't ended yet?",
+  "paper": {
+    "title": "Epidemiology of cholera",
+    "authors": [
+      "Jacqueline Deen",
+      "Martin Mengel",
+      "John D Clemens"
+    ],
+    "journal": "Vaccine",
+    "year": 2019,
+    "doi": "https://doi.org/10.1016/j.vaccine.2019.07.078",
+    "landing_url": "https://doi.org/10.1016/j.vaccine.2019.07.078",
+    "openalex_id": "https://openalex.org/W2965265953",
+    "cited_by_count": 229,
+    "is_open_access": true
+  }
+}
