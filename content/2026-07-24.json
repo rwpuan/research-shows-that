@@ -1,0 +1,26 @@
+{
+  "date": "2026-07-24",
+  "headline": "Research shows that training emotion regulation skills reduces procrastination",
+  "dek": "Across three studies — including a randomized controlled trial — researchers found that learning to tolerate and modify unpleasant emotions measurably reduced procrastination, framing the habit as an emotional coping problem rather than a time-management one.",
+  "read_minutes": 3,
+  "topic": "Procrastination",
+  "summary_md": "## What they found\n\nProcrastination isn't really about laziness or poor planning — it may be a **dysfunctional response to uncomfortable feelings**. That's the central argument tested here, and the results support it across three separate studies.\n\nThe key insight: people procrastinate to escape or avoid aversive emotional states (think dread, anxiety, self-doubt). So if you can get better at *handling* those emotions, you're less likely to put things off in the first place.\n\nTwo specific emotion regulation (ER) skills turned out to matter most:\n- **Tolerating** aversive emotions (sitting with discomfort without fleeing)\n- **Modifying** aversive emotions (actively changing how you feel)\n\nCrucially, systematic *training* in these skills — delivered in a proper randomized controlled trial — actually moved the needle on procrastination. This elevates the finding from correlation to a causal claim with real experimental backing.\n\nThere was also an interesting feedback loop: procrastination itself eroded people's ability to tolerate aversive emotions over time, suggesting a self-reinforcing cycle that emotion skills can help break.\n\n## How they studied it\n\nThe researchers used a three-study design, each building on the last:\n\n1. **Study 1 (cross-sectional):** Surveyed participants to establish that ER skills and procrastination are linked, and that the ability to *tolerate* aversive emotions mediated that relationship.\n\n2. **Study 2 (cross-lagged panel):** Tracked participants over time to test directionality. They found that the ability to *modify* aversive emotions predicted *less* procrastination later — and that procrastination predicted *worse* emotion tolerance later.\n\n3. **Study 3 (RCT):** The gold-standard test. Participants were randomly assigned to either receive structured training in tolerating and modifying aversive emotions, or not. Those who received the training showed **reduced procrastination** compared to the control group.\n\nThis progression — from correlation, to longitudinal prediction, to experimental intervention — is a notably rigorous arc for a single paper.\n\n## Caveats & limits\n\n- The abstract does not specify **sample sizes, populations, or settings**, so it's unclear how broadly these findings generalize (e.g., students vs. working adults, clinical vs. general populations).\n- The **content and duration of the ER training** are not described in the abstract, making it hard to assess what \"training\" actually looked like or how practical it would be to replicate.\n- The study focuses on *academic* performance contexts but claims broader applicability — that wider scope isn't fully established here.\n- Long-term effects of the training are not reported in the abstract; it's unknown whether reductions in procrastination persist beyond the study period.\n- Self-reported measures of procrastination and emotion regulation carry inherent **response biases**.\n\n## Why it matters\n\nThis reframes procrastination as an **emotion regulation problem** — not a character flaw or a scheduling failure. That's a meaningful shift, because it points toward a concrete, trainable solution. Therapies and interventions already exist for building emotion regulation skills (mindfulness, dialectical behavior therapy techniques, etc.), and this research suggests they could be directly repurposed to tackle procrastination. For educators, coaches, and individuals alike, the takeaway is that the path out of chronic delay may run through feelings, not calendars.",
+  "talking_point": "Turns out procrastination might not be a time-management problem at all — it's an emotion problem, and people who trained in handling uncomfortable feelings actually procrastinated less in a controlled experiment.",
+  "paper": {
+    "title": "Overcome procrastination: Enhancing emotion regulation skills reduce procrastination",
+    "authors": [
+      "Marcus Eckert",
+      "David Daniel Ebert",
+      "Dirk Lehr",
+      "Bernhard Sieland",
+      "Matthias Berking"
+    ],
+    "journal": "Learning and Individual Differences",
+    "year": 2016,
+    "doi": "https://doi.org/10.1016/j.lindif.2016.10.001",
+    "landing_url": "https://doi.org/10.1016/j.lindif.2016.10.001",
+    "openalex_id": "https://openalex.org/W2530941152",
+    "cited_by_count": 188,
+    "is_open_access": true
+  }
+}
