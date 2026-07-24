@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-25",
+  "headline": "Research shows that AI helps spread vaccine misinformation online",
+  "dek": "A 2021 commentary in Translational Behavioral Medicine finds that AI-driven dissemination amplifies online vaccine misinformation across news sites, websites, and social media — and that the same technology may eventually be part of the solution, though more research is needed before it can be widely applied.",
+  "read_minutes": 3,
+  "topic": "Misinformation",
+  "summary_md": "## What they found\n\nHere's the uncomfortable irony: **the same artificial intelligence that powers your social media feed is also one of the engines driving vaccine misinformation further and faster than it could ever travel on its own.** This commentary identifies AI-aided rapid dissemination as a key reason why false claims about vaccines spread so effectively across news outlets, websites, and social media platforms.\n\nThe authors also flag a genuine public health consequence: vaccine hesitancy — fueled in part by this online misinformation — has contributed to a rise in nonmedical exemptions from vaccination, which in turn has helped revive childhood diseases that vaccines had largely suppressed. The World Health Organization, notably, has listed vaccine hesitancy as **one of the top ten global threats to public health**.\n\nOn the hopeful side, the paper outlines a layered approach to fighting back. Public health experts, medical professionals, and everyday vaccination advocates can all help by **correcting false claims using language specifically crafted to reach undecided people** — not just those already convinced. Platform gatekeepers (think social media companies) can implement and enforce policies that limit or outright ban vaccine misinformation. And AI itself, the paper suggests, might one day be turned around to *detect and counter* misinformation — though the authors are careful to note that more research is needed before that approach is ready for broad health policy use.\n\nThe commentary also specifically addresses COVID-19, examining how online misinformation was shaping attitudes toward COVID-19 vaccine uptake at a critical moment in the pandemic.\n\n## How they studied it\n\nThis is a **commentary** — a scholarly synthesis and analysis rather than an original data-collection study. The authors reviewed the landscape of online vaccine misinformation across platforms, examined the role different platforms appear to play in spreading false claims, and drew on existing public health literature to offer recommendations. They also considered the implications of misinformation on COVID-19 vaccine attitudes specifically.\n\n## Caveats & limits\n\nBecause this is a commentary rather than an empirical study, it does **not present original experimental data**, sample sizes, or measurable effect sizes. Conclusions about *how much* AI contributes to misinformation spread, or how effective any given counter-strategy is, are not quantified here. The paper describes what platforms \"appear\" to be doing — a word choice that signals inference rather than direct measurement. Recommendations for using AI as a counter-tool are explicitly flagged as premature for broad policy application without further research. The COVID-19 context also means some observations may be time-sensitive.\n\n## Why it matters\n\nVaccine hesitancy isn't just an abstract concern — the paper connects it directly to real outbreaks of diseases once considered largely under control. Understanding that **AI is a structural amplifier of health misinformation**, not just a neutral tool, reframes the problem: fixing it may require not just better messaging, but deliberate platform policy and, eventually, AI systems explicitly designed to push back. The call for \"language that appeals to those who are undecided\" is also a subtle but important point — the audience that matters most isn't the already-convinced, it's the genuinely uncertain.",
+  "talking_point": "Turns out the AI running your social media feed is also one of the main reasons vaccine misinformation spreads so fast — and researchers think it might eventually have to be part of the fix, too.",
+  "paper": {
+    "title": "Online misinformation and vaccine hesitancy",
+    "authors": [
+      "Renee Garett",
+      "Sean D. Young"
+    ],
+    "journal": "Translational Behavioral Medicine",
+    "year": 2021,
+    "doi": "https://doi.org/10.1093/tbm/ibab128",
+    "landing_url": "https://doi.org/10.1093/tbm/ibab128",
+    "openalex_id": "https://openalex.org/W3201092305",
+    "cited_by_count": 226,
+    "is_open_access": true
+  }
+}
