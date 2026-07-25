@@ -1,0 +1,42 @@
+{
+  "date": "2026-07-26",
+  "headline": "Research shows that most COVID smell and taste loss resolves within a month",
+  "dek": "In a 2020 Italian case series of 187 mildly symptomatic COVID-19 patients, roughly 89% who lost smell or taste saw complete resolution or meaningful improvement within four weeks — and lingering symptoms were not linked to ongoing viral infection.",
+  "read_minutes": 3,
+  "topic": "Sense Of Smell",
+  "summary_md": "## What they found\n\nOne of COVID-19's most talked-about symptoms — the sudden loss of smell or taste — turned out to be surprisingly short-lived for most mild cases. Among patients who reported a sudden onset of these sensory changes, **nearly half (about 49%) had complete resolution within four weeks**, and another 41% reported noticeable improvement. Only about 1 in 10 said their symptoms were unchanged or worse at follow-up.\n\nThat adds up to roughly **89% of affected patients recovering or significantly improving** by the one-month mark — a more optimistic picture than early pandemic fears suggested.\n\nPerhaps just as striking: **persistent loss of smell or taste was not associated with an ongoing SARS-CoV-2 infection**. In other words, if symptoms lingered, it wasn't simply because the virus was still present.\n\n## How they studied it\n\nResearchers at Treviso Regional Hospital in Italy enrolled 202 adults who tested positive for SARS-CoV-2 (confirmed by PCR nasal/throat swabs) between March 19–22, 2020 — right at the height of Italy's first wave. All participants had **mild symptoms** and were at least 18 years old.\n\nParticipants completed a **survey at baseline and again at follow-up**, roughly four weeks later. The study tracked the prevalence of altered smell and taste and how those symptoms evolved over time. Of the 202 enrolled, 187 (92.6%) completed both surveys — a solid retention rate for a fast-moving outbreak study.\n\nThe design was a **cross-sectional survey**, meaning it captured patient-reported symptoms rather than objective clinical smell/taste tests.\n\n## Caveats & limits\n\n- **Self-reported symptoms only.** The study relied on patient surveys, not standardized psychophysical smell or taste testing, so severity ratings are subjective.\n- **Mild cases only.** All participants had mild COVID-19; results may not apply to hospitalized or severely ill patients, who may have different recovery trajectories.\n- **Single center, specific time window.** The cohort came from one Italian hospital during a narrow three-day enrollment window in March 2020 — generalizability to other populations, variants, or settings is uncertain.\n- **No control group.** Without a comparison group, it's hard to separate COVID-specific effects from general viral illness effects on smell and taste.\n- **Four-week endpoint.** The study only followed patients to the one-month mark; what happened to the roughly 10% who hadn't recovered is not addressed here.\n\n## Why it matters\n\nEarly in the pandemic, sudden smell and taste loss became a recognized hallmark of COVID-19 — and a source of real anxiety about permanent damage. This study offered some of the **earliest systematic evidence** that, at least for mildly ill patients, these symptoms tend to resolve relatively quickly.\n\nThe finding that **persistent symptoms don't simply track with ongoing viral presence** is also important: it points toward mechanisms beyond active infection — such as post-infectious inflammation or nerve effects — that deserve further investigation. For clinicians and patients alike, this research helped frame smell and taste loss as a *recoverable* feature of mild COVID-19, while flagging that a meaningful minority may need longer follow-up care.",
+  "talking_point": "Did you know that in an early COVID study, nearly 9 out of 10 people who lost their smell or taste got it back — or mostly back — within just four weeks?",
+  "paper": {
+    "title": "Evolution of Altered Sense of Smell or Taste in Patients With Mildly Symptomatic COVID-19",
+    "authors": [
+      "Paolo Boscolo‐Rizzo",
+      "Daniele Borsetto",
+      "Cristoforo Fabbris",
+      "Giacomo Spinato",
+      "Daniele Frezza",
+      "Anna Menegaldo",
+      "Francesca Mularoni",
+      "Piergiorgio Gaudioso",
+      "Diego Cazzador",
+      "S. Marciani",
+      "Samuele Frasconi",
+      "Maria Ferraro",
+      "Cecilia Berro",
+      "Chiara Varago",
+      "Piero Nicolai",
+      "Giancarlo Tirelli",
+      "Maria Cristina Da Mosto",
+      "Rupert Obholzer",
+      "Roberto Rigoli",
+      "Jerry Polesel",
+      "Claire Hopkins"
+    ],
+    "journal": "JAMA Otolaryngology–Head & Neck Surgery",
+    "year": 2020,
+    "doi": "https://doi.org/10.1001/jamaoto.2020.1379",
+    "landing_url": "https://doi.org/10.1001/jamaoto.2020.1379",
+    "openalex_id": "https://openalex.org/W3039175596",
+    "cited_by_count": 221,
+    "is_open_access": true
+  }
+}
