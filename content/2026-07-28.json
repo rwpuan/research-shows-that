@@ -1,0 +1,37 @@
+{
+  "date": "2026-07-28",
+  "headline": "Research shows that fabric structure alone can block mosquito bites",
+  "dek": "A mathematical model based on mosquito body measurements and biting behavior guided the design of knitted textiles that blocked Aedes aegypti bites three times more effectively than insecticide-treated cloth — with no chemicals at all.",
+  "read_minutes": 3,
+  "topic": "Physics Of Everyday Life",
+  "summary_md": "## What they found\n\nIt turns out you don't need chemicals to stop a mosquito from biting through your clothes — **the physical structure of the fabric itself can do the job**. Researchers built a mathematical model that predicts how well a textile will resist bites from *Aedes aegypti* mosquitoes (a primary vector of dengue, Zika, and other diseases) based purely on the fabric's geometry.\n\nUsing that model as a blueprint, they developed prototype knitted textiles and garments that **blocked bites three times more effectively than standard insecticide-treated cloth**. As a bonus, comfort testing found the new garments had *superior* thermophysiological properties — meaning they performed better at regulating body temperature than the chemical-treated alternatives.\n\n## How they studied it\n\nThe team started by measuring mosquito body dimensions and carefully analyzing how mosquitoes actually behave when they attempt to bite through a material. Those real-world measurements fed into a mathematical model designed to predict which fabric structures would physically prevent a proboscis from reaching skin.\n\nTo validate the model, they tested it against three very different materials: **woven filter fabrics, precision-engineered polypropylene plates, and knitted fabrics**. Once the model proved accurate, they used its predictions to engineer new prototype knitted textiles — and then had people wear the resulting garments to assess comfort. The whole pipeline ran from mosquito biology → math → fabric design → human comfort testing.\n\n## Caveats & limits\n\n- The study focused specifically on **one mosquito species** (*Aedes aegypti*); whether the model generalizes to other species with different body sizes or biting behaviors is not established by this abstract.\n- The abstract does not detail how many human participants wore the garments, nor how long comfort testing lasted.\n- Real-world conditions (humidity, movement, fabric stretching during wear) may affect bite resistance in ways not fully captured by lab validation.\n- The model predicts bite resistance from physical structure — it does not address mosquito *landing* or *attraction*, only the biting-through step.\n- Long-term durability of the protective geometry after repeated washing is not discussed.\n\n## Why it matters\n\nInsecticide resistance is already eroding the effectiveness of treated clothing worldwide, and health concerns about prolonged skin exposure to pesticides are growing. A purely **physics-based solution** — one that can be predicted, designed, and manufactured without any chemical treatment — offers a fundamentally different path forward.\n\nThe existence of a validated predictive model is especially significant: it means future fabric designers don't have to test thousands of textiles by trial and error. They can run the math first, then make the cloth. That could accelerate the development of a whole new generation of protective everyday clothing that is both safer to wear and potentially more effective.",
+  "talking_point": "Turns out the weave of your shirt can stop mosquito bites better than chemical-treated clothing — researchers built a math model from mosquito body measurements and designed fabric that blocked bites three times more effectively, no pesticides needed.",
+  "paper": {
+    "title": "Mosquito-Textile Physics: A Mathematical Roadmap to Insecticide-Free, Bite-Proof Clothing for Everyday Life",
+    "authors": [
+      "Kun Luan",
+      "Andre West",
+      "Marian McCord",
+      "Emiel DenHartog",
+      "Quan Shi",
+      "Isa Bettermann",
+      "Jiayin Li",
+      "Nicholas V. Travanty",
+      "Robert D. Mitchell",
+      "Grayson Cave",
+      "John B. Strider",
+      "Yongxin Wang",
+      "Florian Neumann",
+      "Tobias Beck",
+      "Charles S. Apperson",
+      "R. Michael Roe"
+    ],
+    "journal": "Insects",
+    "year": 2021,
+    "doi": "https://doi.org/10.3390/insects12070636",
+    "landing_url": "https://doi.org/10.3390/insects12070636",
+    "openalex_id": "https://openalex.org/W3180590595",
+    "cited_by_count": 19,
+    "is_open_access": true
+  }
+}
