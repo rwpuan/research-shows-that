@@ -1,0 +1,23 @@
+{
+  "date": "2026-07-29",
+  "headline": "Research shows that uncertainty may be the hidden enemy of workplace creativity",
+  "dek": "A theoretical review of creativity and innovation research finds that hospitality management has lagged behind broader organizational science, and proposes a multilevel model showing how uncertainty at both individual and group levels can suppress creative output.",
+  "read_minutes": 3,
+  "topic": "Creativity",
+  "summary_md": "## What they found\n\nMost of us think of creativity as a personal spark — something that lives inside a talented individual. But this paper argues the picture is far more complicated, and far more fragile. After reviewing the broader landscape of creativity and innovation research, the authors found that **uncertainty — not lack of talent — is a primary force that kills creativity** at work, and it operates at two levels simultaneously: inside individual employees *and* across the teams they belong to.\n\nThe paper proposes a new theoretical model built on **strategic contingency power theory**, which frames creativity as something that can be actively blocked when people or groups feel uncertain about their roles, resources, or environments. Critically, the model isn't just about diagnosing the problem — it also maps out **uncertainty coping strategies** that managers and organizations can use to push back against those creativity-suppressing forces.\n\nOne of the paper's key contributions is connecting individual-level creativity to group-level creativity in a single unified framework — a \"multilevel\" approach that most hospitality research hadn't yet adopted.\n\n## How they studied it\n\nThis is a **theoretical review paper**, not an empirical experiment. The authors conducted a comprehensive (though by their own admission, non-exhaustive) review of existing research on creativity and innovation across both general management and hospitality management literature. From that review, they identified gaps — particularly the hospitality field's relative failure to keep pace with advances in multilevel creativity research — and used those gaps to motivate the construction of a new conceptual model. The model generates **several testable hypotheses** intended to guide future empirical work.\n\n## Caveats & limits\n\nBecause this is a theoretical framework paper, **no data were collected and no hypotheses were tested here**. The authors explicitly acknowledge the review is non-inclusive, meaning relevant studies may have been missed. The model is built for **service organizations**, with a particular focus on hospitality (hotels, restaurants, etc.), so its applicability to other industries is untested. All proposed relationships between uncertainty, coping strategies, and creative outcomes remain **speculative until empirically validated**.\n\n## Why it matters\n\nHospitality is one of the world's largest industries, and it runs on human creativity — from designing guest experiences to solving real-time service problems. Yet this paper reveals that the field's academic research on *how* creativity actually works in those environments has been surprisingly thin, especially compared to broader management science.\n\nBy introducing a multilevel model, the authors give researchers a concrete roadmap for future studies. More practically, the framework highlights something managers can act on: **uncertainty is not inevitable background noise — it's a manageable threat to innovation**. Organizations that identify and reduce the specific uncertainties their employees and teams face may unlock meaningfully more creative output. That's a finding worth repeating — and eventually, worth testing.",
+  "talking_point": "Turns out it might not be a lack of talent killing creativity at work — it could be uncertainty, and it's strangling both individual employees and entire teams at the same time.",
+  "paper": {
+    "title": "Employee creativity and innovation in organizations",
+    "authors": [
+      "Alice H.Y. Hon",
+      "Steven S. Lui"
+    ],
+    "journal": "International Journal of Contemporary Hospitality Management",
+    "year": 2016,
+    "doi": "https://doi.org/10.1108/ijchm-09-2014-0454",
+    "landing_url": "https://doi.org/10.1108/ijchm-09-2014-0454",
+    "openalex_id": "https://openalex.org/W2319409610",
+    "cited_by_count": 222,
+    "is_open_access": true
+  }
+}
