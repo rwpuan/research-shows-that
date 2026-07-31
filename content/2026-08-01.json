@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-01",
+  "headline": "Research shows that gastric bypass surgery uniquely reshapes gut bacteria",
+  "dek": "A 2013 surgical literature review found that Roux-en-Y gastric bypass produces a distinct gut microbiome shift — notably a rise in Proteobacteria — that differs from the bacterial changes seen with non-surgical weight loss alone.",
+  "read_minutes": 3,
+  "topic": "Microbiome",
+  "summary_md": "## What they found\n\nLosing weight changes the trillions of bacteria living in your gut — but *how* you lose the weight seems to matter. This review of research published between 2005 and 2012 found that **Roux-en-Y gastric bypass (RYGB)**, one of the most common bariatric surgeries, produces a gut microbiome signature that is measurably different from the changes seen after weight loss achieved without surgery.\n\nThe headline microbial shift after RYGB is a **comparative overabundance of Proteobacteria** in the distal (lower) gut. That pattern doesn't show up the same way in people who lose equivalent weight through diet or other means — hinting that the surgery itself, not just the pounds shed, is reshaping the microbial community.\n\nThe review also highlights a specific microorganism tied to weight gain: **the archaeon *Methanobrevibacter smithii***, which has an enhanced ability to extract energy from dietary substrates, effectively increasing the calories a host absorbs. Meanwhile, the ratio of two major bacterial phyla — **Firmicutes to Bacteroidetes** — tends to *decrease* with weight loss, a finding that has become one of the more-discussed signals in obesity-microbiome research.\n\n## How they studied it\n\nThis is a **systematic literature review**, not an original clinical trial. The authors searched PubMed for studies published from January 2005 through December 2012, using the terms *weight, obesity, microbiome,* and *bariatric surgery*. Only studies that formally assessed the microbiome **and** recorded participants' weight or body mass index were included. The synthesis was intended as a practical update for practicing surgeons, covering both the science and potential future clinical applications in conditions like Crohn disease, ulcerative colitis, and infectious colitis.\n\nThe underlying individual studies leveraged **parallel genomic processing and computational mapping** — technologies that, by 2013, had only recently become powerful enough to characterize the gut's microbial complexity at scale.\n\n## Caveats & limits\n\n- As a **review article**, this paper synthesizes others' findings; it does not generate new experimental data.\n- The field was young: the included studies span only 2005–2012, a period of rapid but still early methodological development.\n- The abstract does not specify how many studies were ultimately included, nor their sample sizes, so the weight of the underlying evidence is unclear from this summary alone.\n- Observed microbiome differences are **associations**, not proven causes, of obesity or surgical outcomes.\n- Whether the distinct Proteobacteria signature after RYGB is beneficial, harmful, or neutral is not established by this review.\n- Findings may not generalize across different populations, diets, or surgical techniques.\n\n## Why it matters\n\nThe gut microbiome is increasingly understood as a hidden player in metabolism — but this review raises a sharper question: **does the route to weight loss matter for your microbiome?** If a surgical procedure changes gut bacteria in ways that diet alone does not, that could partly explain why bariatric surgery produces metabolic benefits beyond what the calorie math alone would predict. It also opens the door to thinking about the microbiome as a potential target — or at least a biomarker — in obesity treatment and in inflammatory bowel conditions like Crohn disease and ulcerative colitis.",
+  "talking_point": "Turns out gastric bypass surgery doesn't just shrink your stomach — it reshapes your gut bacteria in a way that plain old dieting simply doesn't replicate.",
+  "paper": {
+    "title": "The Human Gut Microbiome",
+    "authors": [
+      "Timothy E. Sweeney",
+      "John M. Morton"
+    ],
+    "journal": "JAMA Surgery",
+    "year": 2013,
+    "doi": "https://doi.org/10.1001/jamasurg.2013.5",
+    "landing_url": "https://doi.org/10.1001/jamasurg.2013.5",
+    "openalex_id": "https://openalex.org/W2023234131",
+    "cited_by_count": 248,
+    "is_open_access": true
+  }
+}
