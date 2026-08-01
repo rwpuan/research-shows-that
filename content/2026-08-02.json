@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-02",
+  "headline": "Research shows that online crowd workers are far more experienced than typical lab participants",
+  "dek": "A 2017 review in Trends in Cognitive Sciences finds that crowdsourced online samples differ meaningfully from traditional lab participants and warns of an emerging \"tragedy of the commons\" as the same experienced workers repeatedly fill cognitive studies.",
+  "read_minutes": 3,
+  "topic": "Cognitive Science",
+  "summary_md": "## What they found\n\nCrowdsourcing research participants from online labor markets has become **commonplace in cognitive science** — but the people in that crowd aren't a neutral stand-in for a typical undergraduate sample or the general public. The review highlights two especially striking issues:\n\n1. **Many online participants are highly experienced** — they've completed dozens or hundreds of studies before yours, which can skew reaction times, task familiarity, and even responses to common cognitive paradigms.\n2. There is an **emerging \"tragedy of the commons\"**: as more researchers tap the same pools of online workers, the shared resource of naïve, uncontaminated participants is gradually depleted for everyone.\n\nThe review also covers reproducibility — noting that online methods can support it — alongside practical concerns like how well video and audio stimuli survive delivery over the web, and how accurately reaction times can be measured outside a controlled lab setting.\n\n## How they studied it\n\nThis is a **narrative review**, not a new empirical experiment. The authors synthesized existing research on the composition of online labor market samples, compared them with traditional laboratory recruitment, and surveyed methodological work on web-based experiment design. They also examined the ethical dimensions of using paid online workers as research participants and reviewed technical guidance on coding experiments for browser-based delivery.\n\n## Caveats & limits\n\n- As a review article, the paper's conclusions depend on the quality and scope of the studies it synthesizes — the abstract does not detail which specific studies were included or how they were selected.\n- The \"tragedy of the commons\" concern is described as **emerging**, not fully documented; the abstract does not quantify how severe or widespread the problem already was in 2017.\n- The review covers the state of play as of 2017; the online labor market landscape (platforms, worker demographics, available tools) has continued to evolve since publication.\n- Findings about video/audio quality and reaction-time precision are described in general terms in the abstract; specific performance benchmarks are not stated there.\n\n## Why it matters\n\nMost people assume that recruiting participants online is just a faster, cheaper version of walking into a psychology lab. This review pushes back on that assumption. **Who you reach online is genuinely different** from who walks into a campus lab, and the more cognitive scientists rely on the same pools of crowd workers, the more those workers start to resemble professionals at taking experiments rather than naïve participants. That subtly changes what studies actually measure — a concern that cuts to the heart of reproducibility and generalizability in the field. For anyone designing or interpreting cognitive research, knowing *who* is in your sample matters just as much as knowing *how many*.",
+  "talking_point": "Did you know that many people who sign up for online psychology studies have already done hundreds of them — meaning they're basically professionals at taking experiments, which can mess with the results?",
+  "paper": {
+    "title": "Crowdsourcing Samples in Cognitive Science",
+    "authors": [
+      "Neil Stewart",
+      "Jesse Chandler",
+      "Gabriele Paolacci"
+    ],
+    "journal": "Trends in Cognitive Sciences",
+    "year": 2017,
+    "doi": "https://doi.org/10.1016/j.tics.2017.06.007",
+    "landing_url": "https://doi.org/10.1016/j.tics.2017.06.007",
+    "openalex_id": "https://openalex.org/W2728433921",
+    "cited_by_count": 244,
+    "is_open_access": true
+  }
+}
