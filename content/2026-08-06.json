@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-06",
+  "headline": "Research shows that redox chemistry quietly runs almost all of exercise physiology",
+  "dek": "A 2020 review in Redox Biology argues that redox signaling pathways — not just mechanical or metabolic forces — sit at the core of how muscles contract, grow, and adapt to exercise.",
+  "read_minutes": 3,
+  "topic": "Exercise Physiology",
+  "summary_md": "## What they found\n\nFor decades, reactive oxygen species (the molecules behind \"oxidative stress\") were treated as villains — damaging byproducts of a hard workout. This review flips that narrative. The authors argue that **redox reactions — the chemical swapping of electrons — are not side effects of exercise but the actual control system driving it.**\n\nSpecifically, they map out how redox signaling governs **four things that happen during a single bout of exercise**: muscle contractile function (how your muscle fibers actually fire), glucose uptake (how working muscles pull sugar from the blood), blood flow regulation, and the shifting of energy systems (bioenergetics). Then they extend the argument to **four longer-term adaptations** your body makes with regular training: the growth of new mitochondria (mitochondrial biogenesis), muscle hypertrophy (getting bigger and stronger), the sprouting of new blood vessels (angiogenesis), and the body's own antioxidant balancing act (redox homeostasis).\n\nThe throughline: in each of these eight processes, a redox signaling pathway appears to be a key — and underappreciated — regulator.\n\n## How they studied it\n\nThis is a **narrative review**, meaning the researchers synthesized existing peer-reviewed literature rather than running new experiments. They traced the known redox signaling pathways connected to each of the eight exercise responses and adaptations, building a case that these chemical signals deserve to be seen as *central* to exercise physiology rather than incidental.\n\nThe goal was explicitly conceptual: to reframe how the field thinks about exercise biology, proposing redox regulation as a unifying framework.\n\n## Caveats & limits\n\n- As a review, this paper **does not present new experimental data** — it interprets and organizes what is already published.\n- The authors acknowledge using the word \"assume\" when framing the overall premise, reflecting that the full causal picture is still being mapped.\n- The abstract does not specify which species, cell types, or exercise modalities the underlying studies drew from, so **generalizability across populations and training types is not directly established here**.\n- \"Redox regulation is central\" is an argument and a framework, not yet a settled consensus — other regulatory mechanisms (mechanical, hormonal, neural) also play major roles.\n- This review does not address whether manipulating redox chemistry (e.g., through antioxidant supplements) produces predictable outcomes during training.\n\n## Why it matters\n\nIf the authors' framework holds up, it has real consequences for how scientists study exercise and how athletes and clinicians think about recovery, adaptation, and aging. **Antioxidant supplements taken around workouts, for instance, may blunt the very redox signals needed to trigger adaptation** — a possibility consistent with this framing, even if this paper doesn't test it directly.\n\nMore broadly, casting exercise physiology as fundamentally a redox phenomenon connects it to a much wider body of cellular biology, potentially opening new doors for research into disease, aging, and human performance.",
+  "talking_point": "Turns out the \"reactive oxygen species\" we're told to neutralize with antioxidants might actually be the chemical messengers telling your muscles to grow and adapt in the first place.",
+  "paper": {
+    "title": "Redox basis of exercise physiology",
+    "authors": [
+      "Nikos V. Margaritelis",
+      "Vassilis Paschalis",
+      "Anastasios A. Theodorou",
+      "Antonios Kyparos",
+      "Michalis G. Nikolaidis"
+    ],
+    "journal": "Redox Biology",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.redox.2020.101499",
+    "landing_url": "https://doi.org/10.1016/j.redox.2020.101499",
+    "openalex_id": "https://openalex.org/W3011051047",
+    "cited_by_count": 126,
+    "is_open_access": true
+  }
+}
