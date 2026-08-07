@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-08",
+  "headline": "Research shows that your mitochondria run on a 24-hour clock",
+  "dek": "A 2018 review in the Journal of Molecular Endocrinology summarizes evidence that mitochondrial shape, energy production, and reactive oxygen species output all oscillate on a daily cycle — and that disrupting that clock, through shift work or social jetlag, may impair metabolic health.",
+  "read_minutes": 3,
+  "topic": "Circadian Rhythm",
+  "summary_md": "## What they found\n\nYour mitochondria — the organelles responsible for converting food into usable energy — don't just hum along at a steady rate. **They appear to follow a 24-hour rhythm**, cycling through changes in shape, respiration rate, and even the production of chemical signals, all in sync with the body's internal clock.\n\nSpecifically, recent studies reviewed here found that:\n\n- **Mitochondrial morphology** — the physical merging (fusion) and splitting (fission) of mitochondria — shows diurnal swings aligned to the light/darkness cycle.\n- **The generation of entirely new mitochondria** depends on a functioning circadian clock.\n- **Mitochondrial respiration itself** (the process of turning lipids and carbohydrates into ATP via oxidative phosphorylation) oscillates across the day.\n- **Reactive oxygen species (ROS)** — molecules that carry important cellular signals — are also produced in a clock-dependent pattern.\n\nWhen the molecular clock is disrupted in animal models, mitochondrial rhythmicity breaks down and respiration becomes abnormal. This lines up with epidemiological observations that **shift workers and people experiencing chronic \"social jetlag\"** face elevated risk of metabolic diseases, including type 2 diabetes.\n\n## How they studied it\n\nThis is a **review paper**, meaning the authors did not conduct new experiments. Instead, they surveyed and synthesized a body of existing research — from molecular studies of circadian clock genes to animal models in which the clock was genetically or environmentally disrupted — to map out what is currently known about the intersection of circadian biology and mitochondrial function.\n\n## Caveats & limits\n\nSeveral important caveats apply:\n\n- As a **review**, this paper draws conclusions from other studies, each with their own limitations. The strength of any individual finding depends on the underlying primary research.\n- Much of the mechanistic work cited comes from **animal models**. Whether the precise rhythms and mechanisms translate directly to human mitochondria is not yet fully established.\n- The review identifies **correlations and plausible links** between clock disruption and metabolic disease, but causality in humans remains difficult to prove.\n- The paper does not describe specific therapeutic interventions, so no action-oriented conclusions should be drawn from it.\n\n## Why it matters\n\nMitochondria have long been treated as relatively static powerhouses. This body of work reframes them as **dynamic, time-aware organelles** that are built to anticipate the demands of day versus night. The fact that their rhythm can be disrupted by modern lifestyle patterns — irregular sleep, night shifts, late meals — gives a potential molecular explanation for why circadian disruption is so consistently linked to metabolic disease. It also opens a new angle for research: rather than only asking *how much* mitochondria produce, scientists may need to ask *when* they produce it.",
+  "talking_point": "Turns out your mitochondria run on a 24-hour clock — and disrupting it with shift work or irregular sleep may literally mess with how your cells produce energy.",
+  "paper": {
+    "title": "Circadian rhythms in mitochondrial respiration",
+    "authors": [
+      "Paul de Goede",
+      "Jakob Wefers",
+      "Eline C. Brombacher",
+      "Patrick Schrauwen",
+      "Andries Kalsbeek"
+    ],
+    "journal": "Journal of Molecular Endocrinology",
+    "year": 2018,
+    "doi": "https://doi.org/10.1530/jme-17-0196",
+    "landing_url": "https://doi.org/10.1530/jme-17-0196",
+    "openalex_id": "https://openalex.org/W2789456434",
+    "cited_by_count": 217,
+    "is_open_access": true
+  }
+}
