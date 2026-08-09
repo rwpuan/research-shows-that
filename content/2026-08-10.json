@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-10",
+  "headline": "Research shows that a rainy Election Day can suppress voting for years",
+  "dek": "A study of US presidential elections from 1952–2012 finds that bad weather on Election Day doesn't just depress turnout once — it creates a lasting habit of not voting that carries forward into future elections.",
+  "read_minutes": 3,
+  "topic": "Habit Formation",
+  "summary_md": "## What they found\n\nMissing an election because of rain doesn't just cost one vote — it may cost many. Researchers found that **rainfall on Election Day reduces voter turnout**, and crucially, that dip in past turnout then **reduces turnout in the next election too**, even if the weather is perfectly fine.\n\nTheir estimates suggest that **a 1-percentage-point drop in past turnout leads to a 0.6–1.0 point drop in current turnout**. In other words, the habit of *not* voting, once formed — even for a mundane reason like getting rained on — tends to persist.\n\nThe researchers also explored *why* this happens. The evidence points to voting having a **direct consumption value** — meaning people vote partly because they genuinely enjoy or identify with the act itself, not just to influence outcomes. Missing an election erodes that sense of identity or enjoyment, making it easier to skip next time. On top of that, **social spillovers may amplify the effect**: when fewer people in a community vote, it can reduce the social norms or peer pressure that nudge others to the polls.\n\n## How they studied it\n\nThe key challenge in studying habit formation is separating \"I didn't vote last time, so I won't this time\" from other confounding factors — maybe people who skipped the last election just care less about politics in general.\n\nTo get around this, the researchers used **rainfall as a natural experiment**. Rain is essentially random from election to election, so it acts as a clean, external \"shock\" to turnout that isn't tied to voters' underlying political motivation. By tracking **county-level turnout data across US presidential elections from 1952 to 2012**, they could trace how a rain-induced dip in one election rippled forward into the next.\n\nThis approach — using an *instrumental variable* (past rainfall) to isolate the causal effect of past turnout on current turnout — allows for stronger causal claims than simply correlating turnout across election years.\n\n## Caveats & limits\n\n- The data are **county-level aggregates**, not individual voter records, so the mechanism of habit formation at the individual level is inferred rather than directly observed.\n- The study covers **US presidential elections only**, so findings may not generalize to other countries, electoral systems, or lower-profile elections.\n- The abstract does not specify the magnitude of rainfall events studied, so it's unclear whether only severe storms matter or whether light rain is enough to trigger the effect.\n- The social spillover interpretation is suggestive, not definitively established by this data alone.\n- Long-run dynamics beyond the next election cycle are not detailed in the abstract.\n\n## Why it matters\n\nVoter turnout is a cornerstone of democratic health, and this research reframes how we think about it. **Turnout isn't just a snapshot of current political enthusiasm** — it's partly a habit shaped by past experience, including experiences as random as the weather. This implies that **temporary barriers to voting can have lasting consequences**, which has significant implications for election administration, polling access, and early/mail voting policies. Making it easier to vote even once may, in theory, pay dividends across multiple future elections.",
+  "talking_point": "Did you know that if rain keeps people from voting in one election, they're measurably less likely to vote in the *next* one too — even if it's a sunny day?",
+  "paper": {
+    "title": "Habit Formation in Voting: Evidence from Rainy Elections",
+    "authors": [
+      "Thomas Fujiwara",
+      "Kyle C. Meng",
+      "Tom Vogl"
+    ],
+    "journal": "American Economic Journal Applied Economics",
+    "year": 2016,
+    "doi": "https://doi.org/10.1257/app.20140533",
+    "landing_url": "https://doi.org/10.1257/app.20140533",
+    "openalex_id": "https://openalex.org/W2524941151",
+    "cited_by_count": 176,
+    "is_open_access": true
+  }
+}
