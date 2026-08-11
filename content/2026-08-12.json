@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-12",
+  "headline": "Research shows that aging rewrites your cells' instruction manual",
+  "dek": "A 2021 review in the International Journal of Molecular Sciences finds that aging is driven in part by accumulated epigenetic errors — changes not to the DNA sequence itself but to how genes are read — and that these errors are linked to cancer, diabetes, osteoporosis, and neurodegeneration.",
+  "read_minutes": 3,
+  "topic": "Aging",
+  "summary_md": "## What they found\n\nAging isn't just wear and tear on your DNA — it's also a slow corruption of the *instructions for reading* that DNA. This review identifies several specific epigenetic changes that accumulate as organisms age across multiple species:\n\n- **Histone variants pile up** — histones are the protein spools DNA wraps around, and swapping in unusual variants can disrupt how genes are switched on or off.\n- **Chromatin becomes more or less accessible** in the wrong places, opening or closing genes that should be doing the opposite.\n- **Histones and heterochromatin are lost** — sections of the genome that should be tightly packed and silenced become unruly.\n- **Histone modifications go haywire** — chemical tags on histones that act like volume knobs for gene expression get added or removed incorrectly.\n- **miRNAs are deregulated** — these small molecules fine-tune gene expression, and their misfiring adds another layer of chaos.\n\nTogether, these disruptions don't just slow cells down; they appear to actively contribute to the development or worsening of major diseases, including **cancer, type 2 diabetes, osteoporosis, and neurodegenerative disorders** like Alzheimer's.\n\n## How they studied it\n\nThis is a **review paper**, meaning the authors did not conduct new experiments. Instead, they systematically surveyed and synthesized existing peer-reviewed research on epigenetic changes during aging. They drew on findings from **multiple species**, suggesting these mechanisms are evolutionarily conserved — not quirks of any one organism. The scope spans molecular biology, genetics, and clinical disease research.\n\n## Caveats & limits\n\nBecause this is a review, it reflects the state of the literature as of 2021 — newer findings may refine or challenge some conclusions. Importantly, the abstract does not specify:\n\n- **Causation vs. correlation**: whether epigenetic changes *cause* aging and disease, or are simply associated with them, remains a key open question.\n- **Which species** were studied or how findings translate across them to humans.\n- **Effect sizes or timelines**: how much each specific epigenetic change contributes relative to other aging hallmarks is not quantified here.\n- The review covers a broad range of diseases, but does not establish that epigenetics is the *primary* driver of any of them.\n\n## Why it matters\n\nThe conventional picture of aging focuses on DNA damage, telomere shortening, and cellular senescence. This review highlights that the *epigenome* — the layer of chemical switches sitting on top of the genome — deserves equal billing. Because epigenetic changes are, at least in principle, **reversible**, understanding them opens a conceptually different door for intervention compared to fixing broken DNA. The link to concrete diseases like cancer and neurodegeneration gives this basic science real clinical stakes, and the cross-species evidence suggests these mechanisms are ancient and fundamental to life itself.",
+  "talking_point": "Turns out aging isn't just your DNA breaking down — it's also your cells gradually forgetting how to read their own instruction manual, and that \"forgetting\" is linked to diseases like Alzheimer's and cancer.",
+  "paper": {
+    "title": "Epigenetics of Aging and Aging-Associated Diseases",
+    "authors": [
+      "Dominik Saul",
+      "Robyn Laura Kosinsky"
+    ],
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2021,
+    "doi": "https://doi.org/10.3390/ijms22010401",
+    "landing_url": "https://doi.org/10.3390/ijms22010401",
+    "openalex_id": "https://openalex.org/W3117221748",
+    "cited_by_count": 231,
+    "is_open_access": true
+  }
+}
