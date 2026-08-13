@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-14",
+  "headline": "Research shows that sea spray carries viruses, bacteria, and enzymes into the sky",
+  "dek": "A 2018 review in ACS Central Science argues that sea spray aerosol particles are far more than sea salt — they contain a complex biological cargo of proteins, enzymes, bacteria, viruses, fatty acids, and sugars — and that this biological complexity makes the particles' climate effects deeply uncertain.",
+  "read_minutes": 3,
+  "topic": "Marine Biology",
+  "summary_md": "## What they found\n\nEvery time a wave breaks or a bubble bursts at the ocean surface, it launches tiny droplets into the atmosphere. For a long time, scientists treated these **sea spray aerosol (SSA) particles** as little more than airborne salt. This review makes clear that picture is radically incomplete.\n\nResearch now shows SSA particles are packed with **living and biological material**: bacteria, viruses, proteins, and enzymes, alongside organic molecules like fatty acids and sugars — all lofted into the sky and transported across vast distances. Because the ocean covers nearly three-quarters of Earth's surface, SSA is one of the most abundant aerosol types on the planet, yet precisely how it affects Earth's **radiation budget** — the balance of incoming and outgoing energy that drives climate — remains highly uncertain.\n\nThe biological complexity of these particles matters because aerosols do two big climate jobs: they **scatter incoming sunlight** back into space, and they act as **seeds around which cloud droplets form**. Both effects depend sensitively on a particle's size, shape, and chemical composition. A particle laced with proteins and living microbes behaves very differently from a simple salt crystal, and those differences can ripple out into large, hard-to-predict climate consequences.\n\n## How they studied it\n\nThis is an **Outlook article** — a forward-looking synthesis of existing research rather than a single new experiment. The authors reviewed decades of observational field studies, laboratory experiments, and computational simulations of SSA chemistry and physics. Their central argument is methodological: understanding SSA well enough to predict its climate effects will require **tightly coupling** all three approaches — real-world observations, controlled lab work, and computer simulations — rather than pursuing them in isolation. The goal is to interrogate the chemistry happening inside *individual* SSA particles, at a level of detail that can eventually feed into reliable climate models.\n\n## Caveats & limits\n\n- As an Outlook/review article, this paper **synthesizes and advocates** rather than presenting new experimental data or quantitative results of its own.\n- The abstract does not specify which biological components dominate SSA's climate effects, or by how much they alter scattering or cloud formation compared to the salt fraction.\n- The piece explicitly acknowledges that the climate impact of SSA \"remains highly uncertain\" — the biology-atmosphere link is an emerging frontier, not a settled science.\n- Findings are framed around open-ocean SSA; coastal or sea-ice environments may differ substantially.\n\n## Why it matters\n\nThe atmosphere and the ocean's biology are more intimately connected than most people — or most climate models — currently account for. If SSA particles carrying **viruses and enzymes** behave differently as cloud seeds than plain salt does, then missing that biology could introduce systematic errors into our projections of rainfall, regional temperatures, and even how well the ocean regulates Earth's thermostat. This review calls for a new interdisciplinary field sitting at the crossroads of microbiology, chemistry, and atmospheric science to close that gap.",
+  "talking_point": "Did you know that when ocean waves break, they spray bacteria and viruses into the atmosphere — and those microbes might actually affect how clouds form and how much sunlight reaches Earth?",
+  "paper": {
+    "title": "Sea Spray Aerosol: Where Marine Biology Meets Atmospheric Chemistry",
+    "authors": [
+      "Jamie M. Schiffer",
+      "Liora E. Mael",
+      "Kimberly A. Prather",
+      "Rommie E. Amaro",
+      "Vicki H. Grassian"
+    ],
+    "journal": "ACS Central Science",
+    "year": 2018,
+    "doi": "https://doi.org/10.1021/acscentsci.8b00674",
+    "landing_url": "https://doi.org/10.1021/acscentsci.8b00674",
+    "openalex_id": "https://openalex.org/W2904504277",
+    "cited_by_count": 70,
+    "is_open_access": true
+  }
+}
