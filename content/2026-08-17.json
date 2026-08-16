@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-17",
+  "headline": "Research shows that studying one exposure across many outcomes beats the reverse",
+  "dek": "A 2017 methodological argument in Epidemiology proposes that fixing a single exposure and scanning many outcomes simultaneously is more rigorous — and more useful for public health — than the trendier approach of scanning many exposures for a single outcome.",
+  "read_minutes": 3,
+  "topic": "Epidemiology",
+  "summary_md": "## What they found\n\nEpidemiologists have recently gotten excited about **\"exposure-wide\" studies** — pick one disease, then cast a wide net across dozens or hundreds of possible risk factors at once. The author of this paper throws cold water on that enthusiasm, arguing there's a smarter way to cast the net.\n\nThe proposal: flip the design around. Instead of one outcome and many exposures, study **one exposure and many outcomes at the same time** — what the author calls **\"outcome-wide epidemiology.\"**\n\nThis reframing matters most for exposures that might be a **double-edged sword**: beneficial for some health outcomes while harmful for others. Scanning all outcomes simultaneously makes those trade-offs visible in a single study, rather than discovering them piecemeal over years of separate research.\n\n## How they studied it\n\nThis is a **methodological commentary**, not an empirical study. The author builds the case through conceptual reasoning about study design, bias, and causal inference — no new dataset is analyzed.\n\nThe core logical argument is about **confounding control**. In an exposure-wide study, every additional exposure you add brings its own set of confounders — and those confounders may themselves influence each other. Trying to control for all of them simultaneously is, in the author's framing, close to impossible without introducing new biases. Exposures also tend to *cause* or *mediate* other exposures, tangling the causal web further.\n\nIn an outcome-wide design, you only have one exposure to worry about. **Confounding control can be done once, cleanly**, and then applied across every outcome you're examining. The statistical and causal housekeeping is far more tractable.\n\n## Caveats & limits\n\n- Because this is a **perspective/commentary piece**, its claims rest on logical argument rather than empirical demonstration. No simulations or real-world case studies are presented in the abstract to quantify how much bias exposure-wide designs actually incur.\n- The abstract does not address how to handle **multiple-testing problems** when many outcomes are examined at once — a real statistical challenge the approach would face in practice.\n- The argument assumes a researcher *has* a well-defined, single exposure of interest; it may not apply when the research question itself is exploratory across exposures.\n- \"More straightforward\" confounding control in outcome-wide studies doesn't mean *easy* — unmeasured confounding for the single exposure of interest remains a concern.\n\n## Why it matters\n\nPublic health guidance rarely comes from a single study. But it does tend to get shaped by whether a given exposure is framed as *generally good* or *generally bad*. If an exposure quietly harms certain outcomes while benefiting others, **studies designed to look at only one outcome at a time will miss the full picture** — and recommendations built on that incomplete picture could mislead.\n\nBy arguing for outcome-wide epidemiology as a standard tool, this paper nudges the field toward designs that are both **more honest about trade-offs** and more directly useful to policymakers weighing real-world decisions about a specific behavior, drug, or environmental factor.",
+  "talking_point": "Turns out the trendy \"scan everything for one disease\" approach in epidemiology may be deeply flawed — it's actually cleaner science to pick one exposure and ask what it does to everything at once.",
+  "paper": {
+    "title": "Outcome-wide Epidemiology",
+    "authors": [
+      "Tyler J. VanderWeele"
+    ],
+    "journal": "Epidemiology",
+    "year": 2017,
+    "doi": "https://doi.org/10.1097/ede.0000000000000641",
+    "landing_url": "https://doi.org/10.1097/ede.0000000000000641",
+    "openalex_id": "https://openalex.org/W2587455444",
+    "cited_by_count": 238,
+    "is_open_access": true
+  }
+}
