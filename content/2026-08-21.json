@@ -1,0 +1,24 @@
+{
+  "date": "2026-08-21",
+  "headline": "Research shows that relaxing music rewires brainwaves more than your favorites do",
+  "dek": "An EEG study found that two weeks of listening to relaxing music (alpha binaural beats) produced significant changes in multiple brain measures, while favorite music showed no significant effect in short-term listening.",
+  "read_minutes": 3,
+  "topic": "Music And The Brain",
+  "summary_md": "## What they found\n\nHere's the counterintuitive bit: **your favorite music may not actually relax your brain — but music you didn't choose might.** Researchers compared two types of music — participants' personal favorites versus specially composed \"relaxing music\" built from alpha binaural beats — and found that only the relaxing music produced measurable, statistically significant changes in brain activity. Favorite music, tested over a short session, showed no significant effect on any of the brain measures studied.\n\nEven more striking: **the relaxing effect wasn't instant.** In the short-term experiment (experiment 1), even the relaxing music didn't move the needle significantly. It was only in the long-term experiment (experiment 2), after participants listened over **two full weeks**, that clear brainwave changes emerged. By the second week, multiple EEG features — including alpha power, approximate entropy, and sample entropy — had all shifted significantly in the music-listening group, while a control group showed no such changes.\n\nAlpha brainwaves are associated with calm, wakeful relaxation, and the entropy measures reflect the complexity of brain signals. The pattern of changes across all these features, growing stronger from week one to week two, suggests the brain's response to relaxing music **builds gradually** rather than arriving all at once.\n\nOne result held flat across both experiments: **frontal brain asymmetry** (a measure sometimes linked to emotional states) showed no significant change in either group, under any condition.\n\n## How they studied it\n\nThe team used **electroencephalogram (EEG)** recordings to capture brain electrical activity. They ran two separate experiments. Experiment 1 was a short-term design, exposing participants to both favorite music and alpha binaural beat relaxing music in a single session. Experiment 2 was a longer-term design, splitting participants into a music-listening group and a control group, with EEG recorded at baseline, after one week, and after two weeks of regular relaxing music listening.\n\nThey extracted four features from the EEG data — **absolute alpha band power, approximate entropy, sample entropy, and frontal alpha asymmetry** — and used ANOVA statistical tests to assess whether changes from baseline were significant.\n\n## Caveats & limits\n\n- The abstract does not specify the **sample size** — we don't know how many participants were involved, which matters a lot for interpreting statistical significance.\n- The study does not describe **how much or how often** participants listened during the two-week period, making it hard to judge the \"dose.\"\n- The binaural beat relaxing music is a specific, engineered stimulus — results may not generalize to all genres of calming music.\n- EEG changes in alpha power and entropy are correlates of brain state, not direct measures of subjective relaxation or wellbeing.\n- The study does not establish long-term retention of effects after listening stops.\n- Frontal asymmetry — a common emotional brain marker — showed **no significant change**, which tempers some of the broader claims about emotional impact.\n\n## Why it matters\n\nMost of us assume our favorite music is the best tool for unwinding. This study pokes a hole in that intuition, suggesting the brain may respond more to acoustically engineered calm than to personally beloved tracks — and that **patience matters as much as playlist choice**. For researchers and clinicians exploring music-based interventions for stress or anxiety, the finding that effects accumulate over weeks (not minutes) is a practically important signal worth following up at larger scale.",
+  "talking_point": "Turns out your favorite songs might not actually relax your brain — specially engineered \"alpha music\" beat personal favorites in brainwave tests, but only after two full weeks of listening.",
+  "paper": {
+    "title": "The Effect of Music on Human Brain; Frequency Domain and Time Series Analysis Using Electroencephalogram",
+    "authors": [
+      "Rab Nawaz",
+      "Humaira Nisar",
+      "Yap Vooi Voon"
+    ],
+    "journal": "IEEE Access",
+    "year": 2018,
+    "doi": "https://doi.org/10.1109/access.2018.2855194",
+    "landing_url": "https://doi.org/10.1109/access.2018.2855194",
+    "openalex_id": "https://openalex.org/W2883077235",
+    "cited_by_count": 61,
+    "is_open_access": true
+  }
+}
