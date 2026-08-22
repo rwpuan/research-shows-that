@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-23",
+  "headline": "Research shows that procrastination is a self-regulation failure, not a time-management flaw",
+  "dek": "A 2014 review paper argues that chronic procrastination — which affects roughly 1 in 5 adults and half of all students — is better understood as a motivational and self-regulatory problem than a simple scheduling issue, with real mental health consequences.",
+  "read_minutes": 3,
+  "topic": "Procrastination",
+  "summary_md": "## What they found\n\nProcrastination is far more common — and more damaging — than most people assume. This review estimates it affects **approximately one-fifth of the adult population and half of the student population**, making it one of the most widespread self-regulatory failures around.\n\nCrucially, the paper draws a sharp line: procrastination isn't forgetting to do something or being disorganized. It is the **voluntary delay of an intended action even when you know you'll be worse off for delaying**. That \"knowing better but still not doing it\" quality is what makes it a self-regulation problem, not a calendar problem.\n\nThe mental health toll is real. Recurrent procrastinators commonly experience **stress, worry, and guilt** — and, in a particularly vicious twist, procrastination is also associated with *avoiding mental health treatment itself*, meaning people who need help are less likely to seek it and more likely to let conditions worsen.\n\nTo explain *why* people procrastinate, the review lands on **Temporal Motivational Theory** as its preferred integrated framework. It identifies four interacting variables that shape the urge to delay:\n- **Expectancy** — how much you believe you'll succeed\n- **Value** — how rewarding the task feels\n- **Impulsiveness** — how easily you're pulled toward immediate gratification\n- **Time** — how far away the deadline feels\n\nWhen expectancy and value are low, and impulsiveness is high, delay becomes almost automatic — especially for distant deadlines that feel abstract.\n\nOn the treatment side, the review surveys a range of interventions: **efficacy performance spirals** (building confidence through small wins), **stimulus control** (redesigning your environment to make starting easier), **learned industriousness**, and **cognitive restructuring**. Cognitive Behavioral Therapy (CBT) is flagged as a promising framework — but the paper is candid that the evidence base is thin.\n\n## How they studied it\n\nThis is a **narrative review** of existing research, not an original experiment. The authors synthesized prior work across motivational theory, learning theory, self-efficacy theory, and behavioral heuristics to build a unified theoretical and clinical picture of procrastination. No new data were collected.\n\n## Caveats & limits\n\nThe paper is explicit about key gaps: there is a **scarcity of randomized controlled trials** on procrastination treatment, and **validated outcome measures** are largely absent. That means the treatment recommendations, while theoretically grounded, are not yet backed by the gold standard of clinical evidence. As a review, the paper also inherits the limitations of the studies it draws from. The prevalence figures (1 in 5 adults, 1 in 2 students) are cited from prior literature and may vary across populations and measurement methods.\n\n## Why it matters\n\nFraming procrastination as a **motivational and self-regulatory failure** — rather than laziness or poor time management — changes how we should approach it. It suggests that shame-based nudges (\"just get it done\") are unlikely to work, while interventions targeting confidence, task value, and environmental cues may be far more effective. It also flags a troubling feedback loop: chronic procrastination can worsen mental health *and* delay the help-seeking that might address it. The call for more rigorous clinical trials, made in 2014, remains relevant today.",
+  "talking_point": "Turns out procrastination isn't a time-management problem at all — it's a self-regulation failure, and it affects about half of all students and one in five adults.",
+  "paper": {
+    "title": "Understanding and Treating Procrastination: A Review of a Common Self-Regulatory Failure",
+    "authors": [
+      "Alexander Rozental",
+      "Per Carlbring"
+    ],
+    "journal": "Psychology",
+    "year": 2014,
+    "doi": "https://doi.org/10.4236/psych.2014.513160",
+    "landing_url": "https://doi.org/10.4236/psych.2014.513160",
+    "openalex_id": "https://openalex.org/W1976294113",
+    "cited_by_count": 243,
+    "is_open_access": true
+  }
+}
