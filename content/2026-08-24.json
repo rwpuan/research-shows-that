@@ -1,0 +1,27 @@
+{
+  "date": "2026-08-24",
+  "headline": "Research shows that AI chatbots can spread dangerous psychiatric misinformation",
+  "dek": "A 2023 commentary in the British Journal of Psychiatry warns that generative AI tools like ChatGPT routinely produce factual errors, fabricated sources, and dangerous advice about mental illness — and that psychiatrists need to be prepared for patients who've encountered them.",
+  "read_minutes": 3,
+  "topic": "Misinformation",
+  "summary_md": "## What they found\n\nGenerative AI models — the kind behind tools like ChatGPT — don't just occasionally get things wrong. According to this paper, they **routinely make errors**, produce nonsense, invent citations that don't exist, and can even generate **dangerous advice** about mental illness and psychiatry specifically.\n\nThe concern isn't just that the information is imperfect. It's that these tools are already being used at massive scale. As commercial adoption of generative AI expands, the authors argue that the public will increasingly receive AI-generated content without realising it — meaning medical misinformation can spread further and faster than ever before.\n\nThe paper singles out mental health as a particularly vulnerable domain. People seeking information about psychiatric conditions or treatments may turn to AI-powered tools and receive responses that sound confident and authoritative but are factually wrong or even harmful.\n\n## How they studied it\n\nThis is a **commentary and analysis piece** rather than an empirical experiment. The authors reviewed the landscape of generative AI — including large language models trained on vast datasets of text — and evaluated the known failure modes of these systems in the context of medical and psychiatric information. Their argument draws on the established behaviour of these models (fabricating sources, generating plausible-sounding but incorrect content) and applies it to the specific risks facing psychiatric patients.\n\n## Caveats & limits\n\nThis paper is a **commentary, not a clinical trial or systematic review**. The abstract does not provide specific data — no sample sizes, no measured rates of misinformation, no controlled comparisons between AI outputs. The authors describe *categories* of risk (factual errors, fabricated sources, dangerous advice) but do not quantify how often these occur or under what conditions. It also focuses on the concern rather than on solutions or mitigation strategies, and the AI landscape has continued to evolve since publication in 2023. Readers should treat this as an expert alarm-raising exercise, not a definitive empirical measurement.\n\n## Why it matters\n\nMost conversations about AI and misinformation focus on politics or social media. This paper redirects attention to a quieter, arguably more serious frontier: **personal health decisions**. Someone in a mental health crisis Googling symptoms or treatments may increasingly land on AI-generated content — or interact directly with an AI tool — without any signal that the advice is unreliable.\n\nThe authors' call to action is aimed squarely at psychiatrists: **know that your patients may already be using these tools**, and that what they've read or been told by an AI could be wrong in subtle or dangerous ways. In a clinical relationship built on trust and accurate information, that's a challenge worth taking seriously.",
+  "talking_point": "Turns out AI chatbots don't just get facts wrong occasionally — researchers warn they routinely fabricate medical sources and can give genuinely dangerous advice about mental health.",
+  "paper": {
+    "title": "Artificial intelligence and increasing misinformation",
+    "authors": [
+      "Scott Monteith",
+      "Tasha Glenn",
+      "John Geddes",
+      "Peter C. Whybrow",
+      "Eric D. Achtyes",
+      "Michael Bauer"
+    ],
+    "journal": "The British Journal of Psychiatry",
+    "year": 2023,
+    "doi": "https://doi.org/10.1192/bjp.2023.136",
+    "landing_url": "https://doi.org/10.1192/bjp.2023.136",
+    "openalex_id": "https://openalex.org/W4387950352",
+    "cited_by_count": 185,
+    "is_open_access": true
+  }
+}
