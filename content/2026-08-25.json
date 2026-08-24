@@ -1,0 +1,22 @@
+{
+  "date": "2026-08-25",
+  "headline": "Research shows that the \"75–95% of taste is smell\" claim lacks evidence",
+  "dek": "A 2015 review in the journal Flavour traces the famous statistic about smell dominating taste back to its apparent origin and finds it unsupported by empirical data — though smell's dominant role in flavour perception is real and well-agreed upon by researchers.",
+  "read_minutes": 3,
+  "topic": "Sense Of Smell",
+  "summary_md": "## What they found\n\nYou've almost certainly heard it: *\"75 to 95 percent of what we taste actually comes from our sense of smell.\"* It's repeated in pop-science articles, TEDx talks, and dinner-party conversations around the world. There's just one problem — **the precise numbers appear to have no solid empirical backing.**\n\nThis review paper went hunting for the original source of the claim and found that the study most likely responsible for it simply doesn't support such a tidy quantitative figure. The author argues the statistic has taken on a life of its own, spreading through repetition rather than evidence.\n\nThat said, the paper is careful **not** to swing to the opposite extreme. Most flavour researchers do broadly agree that olfaction plays a *dominant* role in how we perceive food and drink. The problem is the false precision — slapping a specific percentage on a relationship that is almost certainly context-dependent and hard to pin down.\n\n## How they studied it\n\nThis is a critical review, not a lab experiment. The author examined the existing scientific literature and traced the genealogy of the \"75–95%\" claim, assessing whether any study actually measured or demonstrated it. The paper also unpacks a key conceptual knot: the word **\"taste\"** means different things to different people.\n\nIn everyday language, \"taste\" usually means the full sensory experience of eating — what scientists call *flavour*. In the lab, \"taste\" refers narrowly to *gustation* — the tongue's detection of sweet, salty, sour, bitter, and umami. These two meanings get conflated constantly, making it genuinely difficult to frame — let alone answer — the question of how much smell contributes. Add to that the ongoing scientific debate about which senses are *constitutive* of flavour versus merely *modulatory*, and a single clean number becomes even less plausible.\n\n## Caveats & limits\n\nThe paper does **not** claim smell is unimportant — quite the opposite. It explicitly endorses the view that olfaction is dominant in flavour perception; it only challenges the specific percentages. The review is also theoretical and discursive rather than experimental, so it doesn't generate new empirical data to replace the contested figures. The author acknowledges that even with perfectly defined terms, any answer would likely **vary considerably** depending on which specific smells and tastes are being combined.\n\n## Why it matters\n\nA factoid doesn't have to be false to be misleading — it can just be *falsely precise*. This paper is a rare example of science doing some housekeeping on one of its own most-shared talking points. \n\nOn the practical side, the finding that smell is dominant in flavour perception — even without a tidy number attached — has real creative implications. The review notes that this insight has already begun to inspire **modernist chefs, culinary artists, and experience designers** to rethink how they deliver food and drink, leaning into olfaction in new ways. The lesson may be: the real finding is interesting enough on its own. It doesn't need an invented percentage to make it stick.",
+  "talking_point": "Turns out the famous claim that \"75 to 95% of taste is actually smell\" has no real study behind it — scientists just kept repeating it until everyone assumed someone else had proved it.",
+  "paper": {
+    "title": "Just how much of what we taste derives from the sense of smell?",
+    "authors": [
+      "Charles Spence"
+    ],
+    "journal": "Flavour",
+    "year": 2015,
+    "doi": "https://doi.org/10.1186/s13411-015-0040-2",
+    "landing_url": "https://doi.org/10.1186/s13411-015-0040-2",
+    "openalex_id": "https://openalex.org/W1896902407",
+    "cited_by_count": 203,
+    "is_open_access": true
+  }
+}
