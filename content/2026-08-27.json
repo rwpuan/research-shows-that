@@ -1,0 +1,30 @@
+{
+  "date": "2026-08-27",
+  "headline": "Research shows that expert physics problem-solving has five measurable steps",
+  "dek": "A peer-reviewed rubric identifies five distinct problem-solving processes that separate novice from expert performance in undergraduate introductory physics, with tested validity, reliability, and classroom utility.",
+  "read_minutes": 3,
+  "topic": "Physics Of Everyday Life",
+  "summary_md": "## What they found\n\nResearchers designed and tested a rubric that breaks written physics problem-solving into **five discrete, scoreable processes**: organizing information into a *Useful Description*, choosing the right *Physics Approach*, carrying out a *Specific Application of Physics*, executing *Mathematical Procedures* correctly, and demonstrating *Logical Progression* throughout the solution.\n\nThe key insight is that \"being good at physics problems\" isn't a single, fuzzy talent — it's a **bundle of separable skills**, each of which can be observed, scored, and (by implication) taught. The rubric was designed specifically to capture the gap between how novices and experts approach the same problem, using real student work produced in authentic classroom settings, not artificial lab conditions.\n\nThe team also provide evidence that the tool is **valid** (it measures what it claims to measure), **reliable** (different scorers reach consistent results), and **practical** enough for instructors to use when shaping how they teach.\n\n## How they studied it\n\nThe researchers went through a full instrument-development cycle: designing the rubric's criteria, refining those criteria, and then testing the result against undergraduate introductory physics course work. They evaluated the rubric on three fronts — validity, reliability, and utility — meaning they weren't just building a tool but checking whether it actually holds up under scrutiny. The abstract does not detail the specific sample size or the exact statistical methods used in validation.\n\n## Caveats & limits\n\n- The abstract does not specify **how many students or courses** were involved, so the generalizability across institutions, course types, or disciplines is unclear.\n- The rubric was developed and tested in **introductory undergraduate physics** — it may not translate directly to advanced physics, other STEM fields, or K–12 settings without further validation.\n- We only have access to the abstract, so the precise reliability coefficients and validity evidence cannot be evaluated here.\n- The rubric scores *written* solutions; it may not capture problem-solving processes that students carry out mentally or verbally without writing down.\n- A rubric that distinguishes novices from experts in assessment doesn't automatically guarantee it will *improve* student problem-solving when used for feedback — that would require a separate intervention study.\n\n## Why it matters\n\nProblem-solving is widely treated as the core skill STEM education is supposed to build — yet it's notoriously hard to assess in a consistent, actionable way. A rubric that is both **research-validated and classroom-practical** is genuinely rare. By naming the five components explicitly, the tool gives instructors a shared language to diagnose *where* a student's reasoning breaks down — is it in setting up the problem, picking the right principle, or executing the math? — rather than just marking an answer wrong. That granularity could make feedback far more targeted, and it gives curriculum designers a concrete framework to build courses around deliberate skill development rather than content coverage alone.",
+  "talking_point": "Turns out \"being good at physics problems\" is actually five separate skills — and researchers built a rubric that can score each one individually from a student's written work.",
+  "paper": {
+    "title": "Assessing student written problem solutions: A problem-solving rubric with application to introductory physics",
+    "authors": [
+      "Jennifer L. Docktor",
+      "Jay Dornfeld",
+      "Evan Frodermann",
+      "Kenneth Heller",
+      "Leonardo Hsu",
+      "Koblar Alan Jackson",
+      "Andrew J. Mason",
+      "Qing X. Ryan",
+      "Jie Yang"
+    ],
+    "journal": "Physical Review Physics Education Research",
+    "year": 2016,
+    "doi": "https://doi.org/10.1103/physrevphyseducres.12.010130",
+    "landing_url": "https://doi.org/10.1103/physrevphyseducres.12.010130",
+    "openalex_id": "https://openalex.org/W2374484276",
+    "cited_by_count": 180,
+    "is_open_access": true
+  }
+}
