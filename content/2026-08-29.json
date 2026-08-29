@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-29",
+  "headline": "Research shows that curiosity tracks uncertainty, not the promise of reward",
+  "dek": "A neuroimaging study using a lottery task found that human curiosity scales with outcome uncertainty rather than expected reward value, and maps onto distinct brain regions during its induction and relief.",
+  "read_minutes": 3,
+  "topic": "Curiosity",
+  "summary_md": "## What they found\n\nHere's the counterintuitive bit: **curiosity isn't really about chasing rewards** — it's about not knowing. When researchers independently varied how uncertain and how valuable a lottery outcome was, uncertainty drove curiosity almost every time. Expected reward value barely moved the needle.\n\nThis held up in two ways. First, when people were directly asked how curious they felt, ratings rose in a neat, straight line as uncertainty increased. Second — and more tellingly — people were **willing to wait longer** for an answer the more uncertain the outcome was, even when that answer offered no tangible prize. Their behavior matched their self-reports.\n\nThe brain told a similarly clean story. **Parietal cortex** lit up as curiosity was induced (i.e., while uncertainty was high and the answer was still unknown). When curiosity was *relieved* — when the outcome was finally revealed — activity shifted to the **insula and orbitofrontal cortex**, with the insula's response scaling linearly with how big the informational update actually was. The two experiences, being curious and having that curiosity satisfied, recruit meaningfully different neural machinery.\n\nThe researchers frame curiosity as a drive to **optimize your internal model of the world**: you get itchy when your model is incomplete, and the itch eases once it's updated.\n\n## How they studied it\n\nParticipants completed a lottery task designed so that outcome uncertainty and expected reward value could be varied *independently* — a methodological move that let the team cleanly separate two theories of curiosity that are usually tangled together. Curiosity was measured both explicitly (self-reported ratings) and implicitly (willingness to wait for an answer). Brain activity was recorded with fMRI, allowing the team to track BOLD signal changes at the moment of curiosity induction and again at the moment of relief.\n\n## Caveats & limits\n\n- The abstract does not report sample sizes, effect sizes, or test–retest reliability, so the robustness of the findings across populations is unclear.\n- The lottery task is artificial; whether the same uncertainty-driven mechanism governs everyday curiosity (reading a thriller, doom-scrolling) remains to be shown.\n- \"Expected value did not *strongly* relate\" to curiosity — the abstract's own careful wording leaves open the possibility of a smaller reward-related contribution.\n- Brain-region labels (parietal, insula, orbitofrontal) describe correlates, not causes; this design cannot establish that these areas *produce* curiosity.\n- Findings are in humans only; claims about curiosity as a \"basic biological drive\" across species go beyond what this study directly tests.\n\n## Why it matters\n\nWe tend to assume curiosity is just desire dressed up — that we want to know things because knowing things pays off. This study challenges that assumption at both the behavioral and neural level. If curiosity is fundamentally an **uncertainty-reduction system** rather than a reward-maximization one, it reframes how we think about information seeking, education, and even compulsive phone-checking. You check the notification not because you expect good news, but simply because *not knowing* is what your brain can't stand.",
+  "talking_point": "Turns out curiosity isn't really about expecting a reward — it's pure uncertainty. The more you don't know the outcome, the more desperately your brain wants to find out, regardless of what's actually at stake.",
+  "paper": {
+    "title": "Induction and Relief of Curiosity Elicit Parietal and Frontal Activity",
+    "authors": [
+      "Lieke van Lieshout",
+      "Annelinde R. E. Vandenbroucke",
+      "N. Müller",
+      "Roshan Cools",
+      "Floris P. de Lange"
+    ],
+    "journal": "Journal of Neuroscience",
+    "year": 2018,
+    "doi": "https://doi.org/10.1523/jneurosci.2816-17.2018",
+    "landing_url": "https://doi.org/10.1523/jneurosci.2816-17.2018",
+    "openalex_id": "https://openalex.org/W2758137824",
+    "cited_by_count": 161,
+    "is_open_access": true
+  }
+}
