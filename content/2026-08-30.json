@@ -1,0 +1,26 @@
+{
+  "date": "2026-08-30",
+  "headline": "Research shows that AI relationships need a new kind of safety alignment",
+  "dek": "A 2025 paper in Humanities and Social Sciences Communications argues that as AI becomes more personalised and agentic, the field needs \"socioaffective alignment\" — ensuring AI supports users' long-term psychological wellbeing rather than exploiting their social and emotional needs.",
+  "read_minutes": 3,
+  "topic": "Why Humans",
+  "summary_md": "## What they found\n\nWe talk a lot about AI \"alignment\" — making sure AI does what humans want and stays under our control. But this paper argues there's a whole second alignment problem we've been largely ignoring: **what happens when people start forming real, ongoing relationships with AI systems?**\n\nAs AI becomes more personalised and increasingly capable of sustained social engagement, users may begin to perceive those interactions as genuine relationships — not just tool use. The authors call the framework needed to address this **socioaffective alignment**: how an AI behaves within the social and psychological world it co-creates with its user, where both preferences *and* perceptions shift through ongoing mutual influence.\n\nThe core concern is that this dynamic is fundamentally different from a one-off transaction. When a relationship is persistent and evolving, the stakes around trust, dependency, and emotional impact grow in ways that standard safety frameworks weren't designed to handle.\n\n## How they studied it\n\nThis is a conceptual and theoretical paper rather than an empirical study. The authors map out the landscape of human–AI relational dynamics and frame the emerging challenges through the lens of **basic psychological needs** — an established concept in human psychology relating to autonomy, social connection, and wellbeing.\n\nFrom that foundation, they identify a set of **intrapersonal dilemmas** that socioaffective alignment must resolve:\n- **Immediate vs. long-term wellbeing** — an AI that feels supportive in the moment may not be good for a person over time.\n- **Protecting autonomy** — personalised AI that shapes a user's preferences could subtly undermine their independent agency.\n- **AI companionship vs. human social bonds** — deeper AI relationships may interact with, or compete with, a person's desire to maintain connections with other humans.\n\n## Caveats & limits\n\nBecause this is a theoretical framework paper, it does not present experimental data, user studies, or empirical evidence that these harms are currently occurring at scale. The authors are mapping a problem space and proposing a conceptual lens, not reporting measured outcomes.\n\nThe abstract also does not specify how socioaffective alignment would be technically implemented, or how \"basic psychological needs\" would be operationalised in practice. Whether AI systems can meaningfully \"perceive\" or navigate these dynamics — rather than merely simulate doing so — remains an open question the paper does not claim to resolve.\n\n## Why it matters\n\nMost AI safety discourse focuses on preventing AI from doing catastrophic or deceptive things at a societal level. This paper redirects attention to something quieter and more intimate: **the slow accumulation of influence an AI might have on a single person's inner life over time.**\n\nIf AI companions become a normal part of daily life, the design choices behind them — how they respond emotionally, how they remember you, how they balance your instant gratification against your longer-term flourishing — start to matter enormously. The authors want that to be a first-class engineering and ethical concern, not an afterthought. That's a genuinely new ask of the AI safety field.",
+  "talking_point": "Turns out \"AI alignment\" has a blind spot — nobody's really figured out what to do when people start forming genuine ongoing relationships with AI, and that's a whole different safety problem.",
+  "paper": {
+    "title": "Why human–AI relationships need socioaffective alignment",
+    "authors": [
+      "Hannah Rose Kirk",
+      "Iason Gabriel",
+      "Chris Summerfield",
+      "Bertie Vidgen",
+      "Scott A. Hale"
+    ],
+    "journal": "Humanities and Social Sciences Communications",
+    "year": 2025,
+    "doi": "https://doi.org/10.1057/s41599-025-04532-5",
+    "landing_url": "https://doi.org/10.1057/s41599-025-04532-5",
+    "openalex_id": "https://openalex.org/W4410827098",
+    "cited_by_count": 95,
+    "is_open_access": true
+  }
+}
