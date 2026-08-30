@@ -1,0 +1,23 @@
+{
+  "date": "2026-08-31",
+  "headline": "Research shows that corporate cash hoarding can actually be a smart strategy",
+  "dek": "A Strategic Management Journal study finds that returns to corporate cash holdings keep rising well past what firms need for day-to-day transactions, suggesting large cash piles function as a genuine competitive weapon rather than mere waste.",
+  "read_minutes": 3,
+  "topic": "Surprising",
+  "summary_md": "## What they found\n\nEveryone loves to scold big companies for sitting on mountains of cash — economists call it wasteful, politicians call it greedy, journalists call it hoarding. But this study pushes back on that consensus with a striking result: **the strategic returns to holding cash keep climbing far beyond what a firm needs just to pay its bills.**\n\nThe researchers measured corporate performance using Tobin's q (a standard ratio comparing a firm's market value to the replacement cost of its assets) and found a **quadratic — curved, not flat — relationship** between cash holdings and returns. In plain terms: a little cash helps, more cash helps more, and even a lot of cash continues to pay off strategically, well past the point where conventional economics says the costs should outweigh the benefits.\n\nThey also uncovered a second, related pattern: **the competitive value of cash depends on firm size.** This is rooted in the idea of *strategic deterrence* — the notion that a large cash reserve signals to rivals that you can afford to out-invest, out-discount, or simply outlast them in a fight. Bigger firms, it seems, extract scale-dependent strategic advantages from their cash war chests.\n\n## How they studied it\n\nThe team grounded their work in two competing theoretical traditions. Classical economics views cash as stockpiled free cash flow that carries real opportunity costs — money sitting idle isn't being invested productively. **Behavioral theory**, on the other hand, frames cash as *fungible slack* — flexible, uncommitted resources that let firms adapt quickly to threats and opportunities.\n\nRather than picking a side, the researchers used the tension between these two views to generate testable predictions. They hypothesized a curved (quadratic) return function and a size-dependent (scale) return function, then tested both statistically against real firm data, using Tobin's q as their performance measure. Both hypotheses were supported.\n\n## Caveats & limits\n\n- The abstract does not specify the sample size, time period, or which industries were studied, so the generalizability across sectors (e.g., capital-light tech vs. manufacturing) is unclear.\n- Tobin's q is a market-based measure and reflects investor perceptions, not necessarily operational efficiency or actual competitive outcomes.\n- The study focuses on **U.S. firms**, so findings may not translate directly to firms in different institutional or capital-market environments.\n- Showing that returns continue to rise does not prove there is *no* upper limit — the study establishes the relationship extends well past transactional needs, but optimal cash levels remain context-dependent.\n- Correlation-based findings cannot definitively rule out that firms with better prospects simply *happen* to hold more cash.\n\n## Why it matters\n\nThe conventional wisdom — that corporate cash piles are a sign of managerial laziness or shareholder unfriendliness — may be too simple. This research suggests that **cash functions as a strategic asset in its own right**, akin to a deterrent in competitive markets. A firm known to be flush can discourage rivals from price wars, aggressive expansion, or poaching talent, because everyone knows who can afford to fight longest.\n\nFor anyone thinking about corporate strategy, competition, or even public policy debates around \"idle\" cash, this study is a useful corrective: **not all cash is dead money.**",
+  "talking_point": "Turns out hoarding cash isn't just lazy corporate behavior — research shows large cash reserves keep paying off strategically way past what companies need for everyday expenses, acting almost like a competitive weapon.",
+  "paper": {
+    "title": "Cash is surprisingly valuable as a strategic asset",
+    "authors": [
+      "Changhyun Kim",
+      "Richard A. Bettis"
+    ],
+    "journal": "Strategic Management Journal",
+    "year": 2013,
+    "doi": "https://doi.org/10.1002/smj.2205",
+    "landing_url": "https://doi.org/10.1002/smj.2205",
+    "openalex_id": "https://openalex.org/W2143769017",
+    "cited_by_count": 238,
+    "is_open_access": true
+  }
+}
