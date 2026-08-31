@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-01",
+  "headline": "Research shows that cognitive science was built on a biologically impossible assumption",
+  "dek": "A 2012 paper in Topics in Cognitive Science argues that the founding premise of classical cognitive science — that human cognition is uniform and universal across the species — is biologically untenable, and that the field must embrace variation and diversity to move forward.",
+  "read_minutes": 3,
+  "topic": "Cognitive Science",
+  "summary_md": "## What they found\n\nThe paper's central argument is as striking as it is blunt: **classical cognitive science was born with an \"original sin.\"** Its founding architects assumed that the architecture of human cognition is essentially the same in every person, everywhere — a single, universal mental blueprint for the whole species. The author argues this premise is **biologically impossible**.\n\nThe evidence chipping away at that assumption is already accumulating. The paper points to **imaging genomics** — a field that links brain structure and function to genetic variation — as one active, empirical force undermining the universality claim. In other words, modern biology is revealing that minds, like bodies, vary in meaningful ways across individuals and populations.\n\nThe irony the paper highlights is that **anthropology has known this all along.** Archaeology, biological anthropology, linguistics, and cultural anthropology are all, at their core, sciences of *diversity* — documenting how human culture, language, and biology have diverged across time and space. That makes anthropology fundamentally an evolutionary science. Yet classical cognitive science largely ignored it.\n\nThe author's prescription: a **new cognitive science** must emerge from deeper interaction with the biological sciences, one that treats variation and diversity as central rather than inconvenient noise. This reorientation, the paper suggests, would also finally open the door to a genuine rapprochement between cognitive science and anthropology.\n\n## How they studied it\n\nThis is a **theoretical and argumentative paper** rather than an empirical study. The author draws on existing work across cognitive science, biology (including imaging genomics), and anthropology to make the case that the universality assumption is both scientifically unfounded and historically costly. No new experiments or datasets are reported.\n\n## Caveats & limits\n\n- Because this is a **position paper**, its claims are argumentative, not experimentally tested within the paper itself. The strength of the case depends on how one weighs the cited fields.\n- The abstract does not specify *which* cognitive capacities are most affected by biological variation, or *how much* variation matters for core cognitive architecture — that nuance is left to the broader literature.\n- \"Biologically impossible\" is a strong phrase; the abstract does not lay out the full chain of evidence, so readers should treat this as a scholarly provocation inviting further investigation rather than a settled verdict.\n- The call for rapprochement with anthropology is a vision, not a demonstrated outcome — the paper describes a direction, not an arrival.\n\n## Why it matters\n\nIf the universality assumption really is flawed, it has **enormous downstream consequences**. Psychological findings assumed to be universal may actually reflect specific populations. Cognitive models built on that assumption may be systematically incomplete. And entire disciplines — particularly anthropology — may have been wrongly sidelined from conversations they were always best positioned to inform.\n\nThe paper is a reminder that **the founding assumptions of a field can quietly shape everything** built on top of them — and that occasionally, those foundations deserve a hard look.",
+  "talking_point": "Turns out cognitive science was built on the assumption that all human minds work the same way — and apparently that's biologically impossible.",
+  "paper": {
+    "title": "The Original Sin of Cognitive Science",
+    "authors": [
+      "Stephen C. Levinson"
+    ],
+    "journal": "Topics in Cognitive Science",
+    "year": 2012,
+    "doi": "https://doi.org/10.1111/j.1756-8765.2012.01195.x",
+    "landing_url": "https://doi.org/10.1111/j.1756-8765.2012.01195.x",
+    "openalex_id": "https://openalex.org/W2141876065",
+    "cited_by_count": 139,
+    "is_open_access": true
+  }
+}
