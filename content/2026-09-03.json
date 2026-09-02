@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-03",
+  "headline": "Research shows that language-learning science is built on weirdly narrow data",
+  "dek": "A review in Applied Linguistics finds that conclusions about second language learning are routinely drawn from samples that skew Western, Educated, Industrialized, Rich, and Democratic — yet are presented as universal truths.",
+  "read_minutes": 3,
+  "topic": "Linguistics",
+  "summary_md": "## What they found\n\nMost of what applied linguists claim to know about how people learn second languages rests on a surprisingly skewed foundation. According to this review, the samples underlying landmark conclusions in the field are **disproportionately WEIRD** — drawn from populations that are Western, Educated, Industrialized, Rich, and Democratic (a framework first coined by Henrich, Heine, & Norenzayan in 2010).\n\nThe problem isn't just that the samples are narrow. It's that **findings generated from these specific groups are routinely framed as universal** — as if what's true for a university student in a wealthy Western country is equally true for a rural learner in a developing nation, an adult refugee, or a child in a multilingual community with limited institutional schooling. The authors argue this mismatch between the specificity of the data and the sweep of the conclusions is quietly distorting the knowledge base of the entire discipline.\n\n## How they studied it\n\nThis is a **critical review and synthesis** rather than a new empirical experiment. The authors examined how generalizability functions (and malfunctions) in applied linguistics research, drawing on existing evidence of sampling bias across the field's literature. They situate the argument within the broader WEIRD-sampling critique that has already shaken psychology and cognitive science, and apply that lens specifically to second language learning and instruction research.\n\n## Caveats & limits\n\nBecause this is a review and argumentative piece rather than a systematic meta-analysis, the authors do not provide precise statistics on exactly *how many* studies are WEIRD-skewed or *by how much* findings differ across populations — the abstract does not establish those numbers. The call for more diverse sampling is a recommendation, not a demonstrated remedy; it remains to be seen how much conclusions would actually shift if samples were broadened. The review also focuses on applied linguistics specifically, so its claims shouldn't be automatically extended to adjacent fields without further evidence.\n\n## Why it matters\n\nThis is the kind of structural problem that quietly shapes everything downstream: **teaching methods, curriculum design, policy recommendations, and language assessment tools** are all built on research that may not generalize to the majority of the world's language learners. Many of the learners who stand to benefit most from solid applied linguistics research — those in non-Western, under-resourced, or non-institutional settings — are precisely the ones least represented in the studies.\n\nThe authors end with a call for **replication in diverse contexts and with diverse samples**, which is both a methodological prescription and a kind of equity argument: science that claims to serve all language learners should actually study them.",
+  "talking_point": "Turns out most of what we \"know\" about learning a second language comes from studying a very specific slice of humanity — and then pretending those results apply to everyone on Earth.",
+  "paper": {
+    "title": "Sampling Bias and the Problem of Generalizability in Applied Linguistics",
+    "authors": [
+      "Sible Andringa",
+      "Aline Godfroid"
+    ],
+    "journal": "Annual Review of Applied Linguistics",
+    "year": 2020,
+    "doi": "https://doi.org/10.1017/s0267190520000033",
+    "landing_url": "https://doi.org/10.1017/s0267190520000033",
+    "openalex_id": "https://openalex.org/W3038589324",
+    "cited_by_count": 240,
+    "is_open_access": true
+  }
+}
