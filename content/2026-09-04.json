@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-04",
+  "headline": "Research shows that flipping one chemical module turns a repellent into a social magnet",
+  "dek": "A 2012 PLoS Biology study found that adding a tryptophan-derived building block to naturally repulsive worm pheromones flips their effect entirely, turning them into potent attraction and aggregation signals in C. elegans.",
+  "read_minutes": 3,
+  "topic": "Social Behavior",
+  "summary_md": "## What they found\n\nTiny roundworms (*C. elegans*) talk to each other using a family of small chemical signals called **ascarosides**. Scientists already knew these molecules help worms sense population density and find mates — but one big mystery remained: no one had identified a chemical signal that actually *attracts* wild-type hermaphrodites to gather together.\n\nThis study cracked that mystery, and the answer is delightfully counterintuitive. The researchers discovered a set of previously overlooked ascaroside variants that carry an extra chemical unit derived from the amino acid **tryptophan** — an indole group. That single molecular addition flips the signal completely: plain ascarosides *repel* hermaphrodites, while the indole-decorated versions are **potent attractants** that drive aggregation.\n\nThe same attraction effect showed up in both \"solitary\" and \"social\" strains of *C. elegans*, suggesting this is a deeply shared social signal rather than a quirk of one genetic background.\n\n## How they studied it\n\nThe team used **comparative metabolomics** — essentially a chemical inventory — to spot the indole ascarosides hiding alongside the already-known variants in worm secretions. They then ran behavioral assays to test how hermaphrodites responded to these molecules, confirming attraction and aggregation effects.\n\nTo trace the wiring behind the behavior, they worked through the worm's nervous system neuron by neuron. They found that **ASK amphid sensory neurons** detect the indole ascarosides, and that the downstream **AIA interneuron** — not the RMG interneuron previously thought central to aggregation — is required for translating that signal into attraction. This was a notable divergence from the established circuit model, because the RMG interneuron (linked to the neuropeptide Y-like receptor NPR-1) had been the go-to explanation for social behavior differences between worm strains.\n\n## Caveats & limits\n\n- The abstract does not specify exact sample sizes, effect sizes, or concentration ranges for the behavioral assays, so the magnitude of effects is not quantifiable from this summary alone.\n- All findings are in *C. elegans*; whether analogous modular pheromone logic exists in other animals is not established here.\n- The study identifies the AIA interneuron as necessary for attraction, but the full downstream neural circuit is not mapped in this work.\n- The interplay between indole ascarosides and other environmental or genetic factors is not addressed.\n\n## Why it matters\n\nThis work reframes how scientists think about **chemical communication in animals**. Rather than each behavior being governed by a unique, purpose-built molecule, *C. elegans* appears to use a **modular chemical library** — mixing and matching building blocks from lipid metabolism and amino-acid metabolism to generate signals with radically different meanings. Swap in a tryptophan-derived module, and a \"stay away\" message becomes a \"come together\" one.\n\nThat's a remarkably efficient design for a biological language, and it suggests the complexity of social signaling in even a simple, well-studied organism can run deeper than decades of research had revealed. It also opens a new handle for studying how neural circuits decode chemical social cues — one interneuron at a time.",
+  "talking_point": "Turns out the same chemical that makes a worm flee can be tweaked with a single molecular addition to make other worms swarm toward it — repellent or magnet, it's just one building block apart.",
+  "paper": {
+    "title": "A Modular Library of Small Molecule Signals Regulates Social Behaviors in Caenorhabditis elegans",
+    "authors": [
+      "Jagan Srinivasan",
+      "Stephan H. von Reuß",
+      "Neelanjan Bose",
+      "Alon Zaslaver",
+      "Parag Mahanti",
+      "Margaret C.W. Ho",
+      "Oran G. O'Doherty",
+      "Arthur S. Edison",
+      "Paul W. Sternberg",
+      "Frank C. Schroeder"
+    ],
+    "journal": "PLoS Biology",
+    "year": 2012,
+    "doi": "https://doi.org/10.1371/journal.pbio.1001237",
+    "landing_url": "https://doi.org/10.1371/journal.pbio.1001237",
+    "openalex_id": "https://openalex.org/W2019518843",
+    "cited_by_count": 245,
+    "is_open_access": true
+  }
+}
