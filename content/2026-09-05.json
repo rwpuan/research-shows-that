@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-05",
+  "headline": "Research shows that elite athletic training is still largely trial and error",
+  "dek": "A comprehensive 2023 review in Physiological Reviews finds that despite growing knowledge of the molecular machinery behind muscle adaptation, scientists still don't fully understand how the body integrates and coordinates those signals — meaning elite training programs remain rooted in coach intuition and athlete experience rather than settled science.",
+  "read_minutes": 3,
+  "topic": "Exercise Physiology",
+  "summary_md": "## What they found\n\nHere's the counterintuitive part: **we can describe muscle adaptation down to the molecular level, yet elite athletic training is still largely a trial-and-error process.** This major review lays out everything science knows about how skeletal muscle remodels itself in response to endurance and resistance training — from gene signaling to morphological change — and then admits that the picture is incomplete enough that coaches and athletes are still the ones leading the way, with researchers often playing catch-up.\n\nHuman skeletal muscle is, by the authors' description, remarkably **\"plastic\"** — it shifts across a wide spectrum depending on how much (or how little) it's used. Inactive individuals and world-class athletes sit at opposite ends of that spectrum, and the molecular story of how training moves someone along it involves \"pleiotropic\" (wide-ranging, multi-effect) adaptations that interact in ways science hasn't fully mapped.\n\nThe review also gives special attention to two underexplored dimensions: **innate genetic and interindividual differences** in how people respond to training, and the particular case of **aging athletes**, whose muscles adapt through the same mechanisms but in a physiologically distinct context.\n\n## How they studied it\n\nThis is a **narrative review** — a sweeping synthesis of existing research rather than a new experiment. The authors compiled and organized the current state of knowledge on the cellular and molecular mechanisms governing muscle plasticity, covering both endurance- and resistance-based training adaptations. The framing device — \"molecules to medals\" — signals their intent to bridge basic laboratory science and real-world athletic performance.\n\n## Caveats & limits\n\nBecause this is a review article, it **generates no new experimental data**. Its conclusions about gaps in knowledge reflect the authors' interpretation of the existing literature, and other researchers may weigh those gaps differently.\n\nThe abstract does not specify which studies were included or excluded, what search or selection criteria were used, or how many papers were synthesized — so the scope and representativeness of the evidence base can't be assessed from the abstract alone.\n\nThe acknowledgment that training practice drives research (rather than the reverse) is an observation about the field's current state, **not a claim that molecular science is useless** — only that it hasn't yet caught up enough to fully guide elite practice.\n\nFinally, findings and frameworks discussed apply to skeletal muscle specifically; conclusions may not extend to other physiological systems involved in athletic performance.\n\n## Why it matters\n\nThe image of elite sport as a precision science — athletes optimized by sports scientists armed with biomarkers and genomic data — turns out to be only partially true. **The molecular underpinnings of muscle adaptation are real and increasingly well-characterized, but the integration of all those signals into a complete, actionable model is still a work in progress.**\n\nThat gap matters for anyone involved in training design, sports medicine, or the study of aging, because it means the field is ripe for discovery. Understanding *how* muscles know to grow stronger, build more endurance, or recover with age could eventually replace decades of accumulated coaching folklore with something more precise — but we're not there yet.",
+  "talking_point": "Turns out that even at the Olympic level, training programs are basically still trial and error — scientists can describe what happens in your muscles down to the molecule, but they still don't fully understand how it all works together.",
+  "paper": {
+    "title": "The molecular athlete: exercise physiology from mechanisms to medals",
+    "authors": [
+      "Regula Furrer",
+      "John A. Hawley",
+      "Christoph Handschin"
+    ],
+    "journal": "Physiological Reviews",
+    "year": 2023,
+    "doi": "https://doi.org/10.1152/physrev.00017.2022",
+    "landing_url": "https://doi.org/10.1152/physrev.00017.2022",
+    "openalex_id": "https://openalex.org/W4313554899",
+    "cited_by_count": 213,
+    "is_open_access": true
+  }
+}
