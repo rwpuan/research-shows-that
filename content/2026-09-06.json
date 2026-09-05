@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-06",
+  "headline": "Research shows that your prefrontal cortex runs two distinct decision systems",
+  "dek": "A 2014 review of neuroimaging and modeling studies proposes that the prefrontal cortex is organized into a \"peripheral\" system for routine, cue-driven choices and a \"core\" system for higher-order reasoning about when to stick with old strategies or explore entirely new ones.",
+  "read_minutes": 3,
+  "topic": "Decision Making",
+  "summary_md": "## What they found\n\nYour prefrontal cortex (PFC) — long known as the seat of \"executive control\" — may not work as a single unified command center. Instead, this review proposes it operates as **two nested arbitration systems** that handle very different kinds of decisions.\n\nThe **peripheral system** covers the outer edges of the PFC (premotor/caudal regions and the orbitofrontal cortex). It handles relatively straightforward choices: picking an action based on a sensory cue, or selecting an option based on its known reward value. Crucially, it operates within **stable, familiar rules** — the kind of situation where the world behaves predictably and you already know the playbook.\n\nThe **core system** is where things get philosophically interesting. It spans the ventromedial, dorsomedial, lateral, and polar PFC regions — essentially the inner and forward-most parts of the prefrontal cortex. This system handles a much harder meta-level question: *should I keep using my current strategy, tweak it, or throw it out entirely and build a new one?* This is the **exploit-vs-explore** dilemma, and the core system is proposed to be the brain's arbiter of it — especially in open-ended, unpredictable environments where no single rule reliably works.\n\nIn short: the peripheral system plays the game; the core system decides whether you're even playing the right game.\n\n## How they studied it\n\nThis is a **review and synthesis paper**, not a single experiment. The authors drew on a body of recent neuroimaging studies (primarily fMRI) alongside computational modeling work to map out how different PFC subregions contribute to decision-making and executive control. Their goal was to bridge two research traditions — the \"decision-making\" literature (focused on reward and value) and the \"executive control\" literature (focused on cognitive flexibility and rule-switching) — which had largely developed in parallel.\n\n## Caveats & limits\n\n- This paper is a **theoretical framework**, not a direct experimental test. The two-system model is a proposal synthesized from existing data, not a finding proven by a single definitive study.\n- The abstract does not specify which individual studies were included, how many, or their sample sizes — so the strength of the underlying evidence base cannot be assessed from this summary alone.\n- Neuroimaging correlates brain regions with functions, but **does not prove causation**. Showing that a region is active during a task does not confirm it is *necessary* for that task.\n- The clean boundary between \"peripheral\" and \"core\" systems is a conceptual simplification; the brain's actual organization is likely far messier and more interconnected.\n- Findings may not generalize across all populations, ages, or neurological conditions.\n\n## Why it matters\n\nThe exploit-vs-explore tension — knowing when to stick with what works versus striking out into the unknown — is one of the deepest problems in both neuroscience and artificial intelligence. If the brain really does have a dedicated neural system for arbitrating this dilemma at a **meta-cognitive level**, it reframes how we think about adaptability, creativity, and even disorders like OCD or addiction, where that arbitration may go wrong. It also offers a bridge between two fields — value-based decision-making and cognitive control — that have historically talked past each other.",
+  "talking_point": "Turns out your prefrontal cortex has two systems — one that plays by the rules, and one that decides whether to change the rules entirely.",
+  "paper": {
+    "title": "Executive control and decision-making in the prefrontal cortex",
+    "authors": [
+      "Philippe Domenech",
+      "Étienne Koechlin"
+    ],
+    "journal": "Current Opinion in Behavioral Sciences",
+    "year": 2014,
+    "doi": "https://doi.org/10.1016/j.cobeha.2014.10.007",
+    "landing_url": "https://doi.org/10.1016/j.cobeha.2014.10.007",
+    "openalex_id": "https://openalex.org/W2083248528",
+    "cited_by_count": 246,
+    "is_open_access": true
+  }
+}
