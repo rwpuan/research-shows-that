@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-07",
+  "headline": "Research shows that circadian dysfunction may be a trait marker of bipolar disorder",
+  "dek": "A 2018 review finds that disruptions to the body clock — from sleep-wake irregularities to melatonin abnormalities and clock gene vulnerabilities — are more prominent in bipolar disorder than in major depression, suggesting they may signal the condition itself rather than just its symptoms.",
+  "read_minutes": 3,
+  "topic": "Circadian Rhythm",
+  "summary_md": "## What they found\n\nBipolar disorder (BD) isn't just a mood condition — it appears to be deeply entangled with the body's internal clock. This review of the literature documents a consistent pattern: people with BD show **irregular sleep-wake rhythms, a tendency toward \"eveningness\" (being a night owl), abnormal melatonin secretion, vulnerable clock genes, and disrupted social time cues** (the everyday routines that help anchor our biological clocks).\n\nThe most striking finding is the comparison with major depressive disorder (MDD). Circadian rhythm dysfunction was **more prominent in BD than in MDD**, leading the authors to argue it may be a **trait marker** of BD — meaning it reflects something fundamental about the condition itself, not merely a byproduct of being in a mood episode.\n\nBeyond identity, the disruptions may also have predictive power. The review suggests that circadian rhythm dysfunction could act as an **early warning signal** — potentially forecasting both the *first onset* of bipolar disorder and the *relapse* of mood episodes down the line.\n\n## How they studied it\n\nThis is a **narrative review** of existing published literature, not a new clinical trial or data collection study. The authors synthesized prior research on circadian biology and bipolar disorder, drawing on evidence across areas including sleep science, chronobiology (the study of biological time), genetics, and psychiatry. The review covers pharmacological, psychosocial, and chronobiological treatment approaches that target sleep and circadian dysfunction.\n\n## Caveats & limits\n\nAs a review article, this paper **does not generate new data** — its conclusions depend entirely on the quality and scope of the studies it summarizes. The abstract does not specify how many studies were included, how they were selected, or whether a systematic or meta-analytic method was used, which means **publication bias or selection effects** cannot be ruled out.\n\nThe claim that circadian dysfunction is a \"trait marker\" is a hypothesis supported by observed patterns, **not a confirmed mechanistic finding**. The direction of causality is also unclear: does circadian disruption contribute to BD, or does BD produce circadian disruption — or both? The authors themselves call for further research to clarify this relationship.\n\nAdditionally, the review does not establish which specific treatments are most effective or for whom — it notes that combined approaches \"are believed to be useful,\" a phrase that reflects informed clinical opinion rather than definitive proof.\n\n## Why it matters\n\nIf circadian rhythm dysfunction is genuinely a trait marker of bipolar disorder — present even outside of mood episodes — it opens a meaningful new lens for both **early detection and treatment**. Rather than treating the body clock as a side effect to manage, clinicians might one day use circadian signals as **diagnostic clues or relapse predictors**. It also points toward chronobiological therapies (like light therapy or social rhythm therapy) as potentially valuable complements to standard psychiatric care. The science isn't settled, but the body clock's role in BD is no longer easy to dismiss.",
+  "talking_point": "Did you know that bipolar disorder may be as much a \"broken body clock\" condition as a mood disorder — and the disruption could actually signal the illness before episodes even begin?",
+  "paper": {
+    "title": "Circadian rhythm in bipolar disorder: A review of the literature",
+    "authors": [
+      "Yoshikazu Takaesu"
+    ],
+    "journal": "Psychiatry and Clinical Neurosciences",
+    "year": 2018,
+    "doi": "https://doi.org/10.1111/pcn.12688",
+    "landing_url": "https://doi.org/10.1111/pcn.12688",
+    "openalex_id": "https://openalex.org/W2806861601",
+    "cited_by_count": 218,
+    "is_open_access": true
+  }
+}
