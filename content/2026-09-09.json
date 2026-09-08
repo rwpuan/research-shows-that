@@ -1,0 +1,31 @@
+{
+  "date": "2026-09-09",
+  "headline": "Research shows that Tourette syndrome brains are wired for stronger habit formation",
+  "dek": "A 2015 Brain study found that unmedicated Tourette syndrome patients relied far more heavily on automatic, habitual behaviour than controls, and that the severity of this bias correlated with both tic severity and greater structural connectivity in the brain's motor habit circuit.",
+  "read_minutes": 3,
+  "topic": "Habit Formation",
+  "summary_md": "## What they found\n\nPeople with Gilles de la Tourette syndrome (GTS) may have an unusually strong pull toward habit-driven behaviour — and the more they rely on those automatic responses, the worse their tics tend to be.\n\nIn a carefully controlled experiment, **unmedicated GTS patients showed a strong bias toward habitual, \"outcome-insensitive\" behaviour**: even when the goal of an action was devalued (i.e., made less desirable), they kept doing the action anyway — a hallmark of true habit rather than deliberate choice. Healthy controls and medicated patients were better at flexibly adjusting their behaviour when circumstances changed.\n\nCrucially, this wasn't just a behavioural quirk. Brain imaging revealed that **the degree to which patients slipped into habitual responding correlated with greater structural connectivity in the right motor cortico-striatal network** — the brain highway linking the motor cortex and the striatum. In unmedicated patients specifically, stronger connectivity between the supplementary motor cortex and the sensorimotor putamen predicted more severe tics.\n\nAntipsychotic-medicated patients landed in the middle ground between unmedicated patients and controls, hinting that medication may partially dampen the habit bias.\n\n## How they studied it\n\nThe researchers recruited **17 unmedicated and 17 antipsychotic-medicated GTS patients**, each matched to healthy controls. All participants completed a **three-stage instrumental learning task** — first learning which actions led to which outcomes, then undergoing \"outcome devaluation\" and \"slip-of-action\" tests designed to tease apart goal-directed (flexible) from habitual (automatic) behaviour.\n\nOn top of the behavioural task, a subset of participants underwent **diffusion tensor imaging (DTI)**, a brain-scanning technique that maps the structural integrity and connectivity of white-matter tracts. This allowed the team to link behaviour to the underlying architecture of cortico-striatal circuits.\n\n## Caveats & limits\n\n- The sample sizes are **relatively small** (17 per patient group), which limits statistical power and generalisability.\n- The study is **cross-sectional**: it shows correlations, not causation. We can't conclude that stronger cortico-striatal connectivity *causes* tics or habit bias — the relationship could run in either direction, or both could stem from a common factor.\n- DTI was only performed on **a subset** of participants, making the imaging findings even more preliminary.\n- The findings apply to GTS specifically; they may not generalise to other tic disorders or to Tourette syndrome across the full age and severity spectrum.\n- The abstract does not specify participant ages or the full range of tic severities represented, which are important context for scope.\n\n## Why it matters\n\nTics have long been described anecdotally as \"semi-voluntary\" — people often report feeling an urge they eventually \"give in\" to. This study provides **formal experimental evidence** for a mechanism behind that experience: the GTS brain may be systematically tilted away from flexible, goal-directed control and toward automatic habit execution.\n\nThe finding points to **the sensorimotor striatum and its reinforcement signals** as a key site of dysfunction. This matters for treatment: if tics are partly a habit-formation problem rooted in cortico-striatal circuitry, therapies that target habit-reversal or striatal signalling (including existing antipsychotics, which appeared to partially normalise behaviour here) may have a principled neurological basis — not just symptom suppression.",
+  "talking_point": "Turns out Tourette syndrome may be partly a habit problem — the brain's automatic-behaviour circuit runs on overdrive, and the stronger the overdrive, the worse the tics.",
+  "paper": {
+    "title": "Enhanced habit formation in Gilles de la Tourette syndrome",
+    "authors": [
+      "Cécile Delorme",
+      "Alexandre Salvador",
+      "Romain Valabrègue",
+      "Emmanuel Roze",
+      "Stefano Palminteri",
+      "Marie Vidailhet",
+      "Sanne de Wit",
+      "Trevor W. Robbins",
+      "Andreas Hartmann",
+      "Yulia Worbe"
+    ],
+    "journal": "Brain",
+    "year": 2015,
+    "doi": "https://doi.org/10.1093/brain/awv307",
+    "landing_url": "https://doi.org/10.1093/brain/awv307",
+    "openalex_id": "https://openalex.org/W2156315378",
+    "cited_by_count": 164,
+    "is_open_access": true
+  }
+}
