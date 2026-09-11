@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-12",
+  "headline": "Research shows that billions of museum specimens form our only large-scale biodiversity record",
+  "dek": "A 2015 BioScience paper argues that physical specimen collections held across thousands of institutions worldwide represent the only verifiable, large-scale dataset for tracking how species distributions have shifted over time.",
+  "read_minutes": 3,
+  "topic": "Biodiversity",
+  "summary_md": "## What they found\n\nHumanity has been quietly building one of the most valuable scientific databases on Earth for centuries — and most people have never heard of it. Institutional natural history collections, held in **at least 1,500 US institutions and roughly 5,000 worldwide**, contain **billions of physical specimens**, nearly all tagged with taxonomic, geographic, and temporal data.\n\nThe paper's core argument is striking: these dusty drawers of pinned beetles, pressed plants, and preserved fish are not museum curiosities — they are **the only large-scale, verifiable source of data** on where organisms actually lived and how those ranges have shifted over time. The US National Museum of Natural History alone holds **126 million cataloged specimens**, each one a timestamped geographic record of a species' presence.\n\nWhy does that matter beyond academic interest? Because **shifts in species distributions ripple directly into human welfare** — affecting food and water supplies, disease spread, climate regulation, crop pollination, and more. Invasive species alone, the paper notes, cost the US economy **more than $120 billion per year** in losses to agriculture and natural ecosystems.\n\n## How they studied it\n\nThis paper is a synthesis and argument piece rather than a primary data study. The authors surveyed the scale of global and US natural history collections, assessed the nature and completeness of the data associated with physical specimens (taxonomy, geography, collection date), and made the case that digitizing these collections would unlock a uniquely powerful \"big data\" resource for biodiversity science. The framing is explicitly about the *potential* of digitization efforts already underway as of 2015.\n\n## Caveats & limits\n\n- The abstract does not report original empirical findings — it is a perspective/argument piece, so the claims about biodiversity impacts and economic costs draw on cited external sources, not new analyses.\n- Specimen counts and institution numbers are estimates or point-in-time figures (2015); actual totals will differ today.\n- The abstract does not describe how complete, consistent, or digitized these collections actually were at the time of writing — only that they *exist* and carry key data fields.\n- The $120 billion annual cost figure for invasive species is attributed to a US Fish & Wildlife Service source, not independently calculated in this paper.\n- The paper does not address data quality issues, taxonomic inconsistencies, or sampling biases inherent in historical collection practices.\n\n## Why it matters\n\nNatural history museums are often framed as places of public education, but this paper reframes them as **critical scientific infrastructure** — irreplaceable archives of where life on Earth has been. As climate change and invasive species continue to redraw the map of biodiversity, the locality and date data locked inside billions of physical specimens may be among the most important tools scientists have for understanding what is being lost and where. Digitization efforts that make this data computationally accessible could transform fields from ecology and epidemiology to agriculture and conservation policy.",
+  "talking_point": "Did you know that billions of museum specimens — with their collection locations and dates — are literally the only large-scale, verifiable record of where species used to live on Earth?",
+  "paper": {
+    "title": "Digitization of Biodiversity Collections Reveals Biggest Data on Biodiversity",
+    "authors": [
+      "Lawrence M. Page",
+      "Bruce J. MacFadden",
+      "J.A.B. Fortes",
+      "Pamela S. Soltis",
+      "Greg Riccardi"
+    ],
+    "journal": "BioScience",
+    "year": 2015,
+    "doi": "https://doi.org/10.1093/biosci/biv104",
+    "landing_url": "https://doi.org/10.1093/biosci/biv104",
+    "openalex_id": "https://openalex.org/W2278491832",
+    "cited_by_count": 208,
+    "is_open_access": true
+  }
+}
