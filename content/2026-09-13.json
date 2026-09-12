@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-13",
+  "headline": "Research shows that marine biology has always been a form of \"big science\"",
+  "dek": "A historical analysis argues that large-scale scientific collaboration didn't begin with genomics — ocean biology has practiced it for centuries, from Darwin-era natural history expeditions to the Census of Marine Life.",
+  "read_minutes": 3,
+  "topic": "Marine Biology",
+  "summary_md": "## What they found\n\nLong before the Human Genome Project sparked debates about whether biology was becoming \"big science,\" naturalists were already doing it — mapping life on Earth through massive collective expeditions. This paper argues that **marine biology is a uniquely clear example of big science with deep historical roots**, and that the Census of Marine Life (CoML) — the landmark international project that inventoried life in the world's oceans — is the modern heir to that tradition.\n\nThe author traces a through-line from Darwin-era natural history voyages to CoML, examining how collaboration in marine research evolved across dimensions like **team size, internationalization, technology, and public communication**. The conclusion: marine biology is best understood as a transformed form of natural history — not a break from it.\n\n## How they studied it\n\nThis is a historical and conceptual analysis rather than an experiment. The author reviews the development of marine research over time, using the Census of Marine Life as a central case study. By examining **multiple facets of collaboration** — how researchers worked together, how technology changed fieldwork, how findings were communicated to the public, and how the enterprise was internationalized — the paper builds an argument about what kind of \"big science\" marine biology actually represents.\n\nCrucially, the paper introduces the idea of **\"collective ways of knowing\"** as a framework for distinguishing between different types of large-scale biological collaboration, suggesting this lens can sharpen how historians and sociologists of science understand big biology more broadly.\n\n## Caveats & limits\n\n- This is a **conceptual and historical paper**, not an empirical study with quantitative data — its conclusions rest on historical interpretation and argument, which are open to scholarly debate.\n- The abstract does not specify which primary sources, archives, or datasets were used to reconstruct the history of marine collaboration.\n- The claim that marine biology has been **overlooked** in big-science studies is asserted but not itself empirically tested in the abstract.\n- The framework of \"collective ways of knowing\" is proposed as a new lens, but its broader applicability beyond marine biology remains to be tested by other researchers.\n\n## Why it matters\n\nThe debate over \"big science\" in biology tends to treat the Human Genome Project as a turning point — the moment biology got big, expensive, and collaborative. This paper pushes back on that narrative, showing that **ocean scientists were running globe-spanning, multi-institution, technology-heavy collaborations long before genomics existed**.\n\nThat reframing matters for how we fund, organize, and talk about large scientific endeavors. If collaboration in biology has a much longer and richer history than the genomics debate implies, then **the lessons learned from centuries of natural history fieldwork** — not just from particle physics or sequencing centers — deserve a seat at the table when we design the next generation of big science projects.\n\nIt also quietly celebrates an underdog: field biology, often seen as low-tech compared to genomics or particle physics, turns out to have been quietly pioneering the social machinery of big science all along.",
+  "talking_point": "Turns out the Human Genome Project didn't invent \"big science\" in biology — ocean researchers were running massive international collaborations since the days of Darwin.",
+  "paper": {
+    "title": "From Darwin to the Census of Marine Life: Marine Biology as Big Science",
+    "authors": [
+      "Niki Vermeulen"
+    ],
+    "journal": "PLoS ONE",
+    "year": 2013,
+    "doi": "https://doi.org/10.1371/journal.pone.0054284",
+    "landing_url": "https://doi.org/10.1371/journal.pone.0054284",
+    "openalex_id": "https://openalex.org/W2090269098",
+    "cited_by_count": 29,
+    "is_open_access": true
+  }
+}
