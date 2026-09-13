@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-14",
+  "headline": "Research shows that atomic-scale math can predict real-world material behavior",
+  "dek": "A 2013 review explains how density functional theory bridges quantum-level chemistry and physics to the macroscopic engineering properties of semiconductors, metals, and ceramics — revealing hidden composition-structure-property relationships.",
+  "read_minutes": 3,
+  "topic": "Materials Science",
+  "summary_md": "## What they found\n\nMaterials don't just behave the way they do because of what they're *made of* — they behave the way they do because of how they're *put together*. This review highlights a striking insight at the heart of computational materials science: **microstructure**, not just chemical composition, is often the dominant factor governing a material's real-world performance.\n\nThe paper argues that density functional theory (DFT) — a quantum mechanical computational method — is a powerful tool for cracking open the often **hidden relationships between composition, structure, and properties** in materials. In other words, the same atoms arranged differently can produce wildly different materials, and DFT can help explain why, purely from first principles.\n\n## How they studied it\n\nThis is a **review paper**, not a single experiment. The authors survey the key concepts underlying DFT-based computation of material properties across major material classes: **semiconductors, metals, and ceramics**, covering both single-crystal and polycrystalline bulk forms.\n\nRather than attempting an exhaustive tour of all of materials science, the paper is intentionally focused — presenting core computational methods and illustrating how they are applied to each class of material. The unifying theme is using atomistic-scale calculations to explain and predict macroscopic engineering behavior.\n\n## Caveats & limits\n\n- As a **review and methods overview**, this paper does not report new experimental or computational results of its own — it synthesizes and contextualizes existing work.\n- The scope is deliberately **narrowed to bulk materials** (semiconductors, metals, ceramics); surfaces, nanomaterials, polymers, and biological materials are not the focus.\n- DFT itself carries well-known limitations (e.g., approximations in how electron exchange and correlation are handled) that the abstract does not detail — readers should seek primary literature for those nuances.\n- The paper dates to **2013**, so advances in DFT methods and computational power since then are not captured here.\n\n## Why it matters\n\nMaterials science sits at a fascinating crossroads: engineers need materials with specific macroscopic properties (strength, conductivity, heat resistance), but those properties emerge from invisible atomic-scale interactions. **DFT offers a computational bridge** between those two worlds — potentially reducing the need for costly trial-and-error experimentation.\n\nThe key message is that **process conditions matter enormously**: how a metal is forged and annealed, or how a semiconductor film is grown, shapes the microstructure, which in turn shapes performance. Computational tools like DFT make it possible to understand — and eventually design — those relationships before a single sample is ever synthesized in the lab.",
+  "talking_point": "Turns out the same atoms arranged differently can give you a completely different material — and there's quantum math that can predict which arrangement gives you what you need, before you ever build it.",
+  "paper": {
+    "title": "Density functional theory in materials science",
+    "authors": [
+      "Jörg Neugebauer",
+      "Tilmann Hickel"
+    ],
+    "journal": "Wiley Interdisciplinary Reviews Computational Molecular Science",
+    "year": 2013,
+    "doi": "https://doi.org/10.1002/wcms.1125",
+    "landing_url": "https://doi.org/10.1002/wcms.1125",
+    "openalex_id": "https://openalex.org/W2061098915",
+    "cited_by_count": 212,
+    "is_open_access": true
+  }
+}
