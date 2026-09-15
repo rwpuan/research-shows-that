@@ -1,0 +1,22 @@
+{
+  "date": "2026-09-16",
+  "headline": "Research shows that most common cancers stem from controllable risk factors",
+  "dek": "A 2023 epidemiological review finds that the majority of the cancer burden in the US is linked to modifiable exposures — including tobacco, alcohol, obesity, diet, physical inactivity, and sun exposure — meaning a large proportion of cancer deaths are, in principle, preventable.",
+  "read_minutes": 3,
+  "topic": "Epidemiology",
+  "summary_md": "## What they found\n\nThe headline finding is both sobering and quietly hopeful: **the most common and deadly cancers in the United States are caused, in whole or in part, by factors that people and governments can actually influence.** The review identifies tobacco use (especially cigarettes), excess alcohol consumption, obesity, physical inactivity, diets low in fruits and vegetables, certain infectious agents, and sun exposure as the leading drivers of cancer risk.\n\nLung, colorectal, female breast, cutaneous melanoma, and prostate cancers top the list of most frequently diagnosed cancers among adults in high-income countries. Together, cancers of all types accounted for roughly **600,000 US deaths in 2020** — second only to heart disease.\n\nThe review also highlights that **early detection meaningfully reduces the chance of dying** from several major cancers, including breast, cervical, colorectal, lung, and prostate cancers — adding another lever of control beyond prevention alone.\n\n## How they studied it\n\nThis is a **review of accumulated epidemiological evidence** — not a new clinical trial or cohort study. Authors synthesized existing knowledge about cancer incidence, mortality, causes, and international patterns to produce a broad-scope overview suitable for a clinical chemistry audience. The review draws on population-level data, including US mortality figures from 2020, and notes marked international variation in cancer incidence rates across different countries.\n\n## Caveats & limits\n\n- As a **review article**, this paper synthesizes existing literature rather than generating new primary data. Its conclusions rest on the strength of the underlying studies, which vary in design and quality.\n- \"Controllable\" does not mean \"easy.\" Many risk factors — such as obesity, diet, and tobacco use — are deeply shaped by **socioeconomic, environmental, and structural forces** that individuals alone cannot simply choose their way out of. The abstract acknowledges that both *people and governments* share this responsibility.\n- The abstract does **not quantify** exactly what fraction of cancers are preventable, so any specific percentage would be an overreach beyond what's stated.\n- The review focuses primarily on **high-income countries** and the US context; findings may not translate directly to lower-income settings with different cancer profiles and risk factor distributions.\n- \"Infectious agents\" are listed as a cause but not elaborated upon in the abstract, so the scope of that category here is unclear.\n\n## Why it matters\n\nCancer epidemiology can feel fatalistic — as if disease strikes at random. This review pushes back on that framing. By mapping the **known, modifiable causes** of the most common cancers, it reinforces that public health policy — think tobacco taxes, obesity prevention programs, alcohol guidelines, and screening access — has genuine, measurable potential to save lives. The science isn't new, but the synthesis is a useful reminder that **the gap between what we know and what we do** remains one of the biggest levers in cancer control.",
+  "talking_point": "Turns out the most common cancers in the US are largely driven by things like smoking, drinking, obesity, and sun exposure — meaning a huge chunk of cancer deaths are, at least in theory, preventable.",
+  "paper": {
+    "title": "Epidemiology of Cancer",
+    "authors": [
+      "Stephen M. Schwartz"
+    ],
+    "journal": "Clinical Chemistry",
+    "year": 2023,
+    "doi": "https://doi.org/10.1093/clinchem/hvad202",
+    "landing_url": "https://doi.org/10.1093/clinchem/hvad202",
+    "openalex_id": "https://openalex.org/W4390579072",
+    "cited_by_count": 220,
+    "is_open_access": true
+  }
+}
