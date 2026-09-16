@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-17",
+  "headline": "Research shows that city life may be reshaping animal minds",
+  "dek": "A 2021 review in Frontiers in Ecology and Evolution synthesizes evidence that urban environments — by posing novel informational challenges — may select for, or actively develop, different cognitive abilities in animals compared to their rural counterparts.",
+  "read_minutes": 3,
+  "topic": "Animal Cognition",
+  "summary_md": "## What they found\n\nLiving in a city isn't just hard on humans — it turns out urban animals may be cognitively different from their rural relatives. This review brings together a growing body of research showing that **urban environments present animals with genuinely novel problems** — traffic, artificial light, novel food sources, dense human activity — that their evolutionary history simply didn't prepare them for.\n\nTo cope, animals may need to **acquire, store, and process information more flexibly** than their non-urban counterparts. The central question the authors tackle: do cities *select for* smarter (or at least differently-wired) animals, or does the urban environment itself *develop* certain cognitive traits during an animal's lifetime? The answer, it seems, may be both — and the distinction matters enormously for how we think about urban evolution.\n\nThe review also highlights that it's not just raw \"intelligence\" at play. **Personality, social behaviour, and individual cognitive style** all interact to shape which animals thrive in cities and which don't. A bold, curious individual may exploit a novel food source that a shyer one ignores — and that difference could compound over generations.\n\n## How they studied it\n\nThis is a **narrative review**, not a new empirical study. The authors synthesized existing research on cognitive and behavioural differences between urban and non-urban animals, drawing primarily on studies of **birds** (avian taxa dominate the literature here) while also incorporating findings from other species where available. They organized the evidence around the specific *informational challenges* cities pose — predator avoidance, foraging in novel environments, navigating human infrastructure — and mapped different cognitive abilities onto those challenges.\n\n## Caveats & limits\n\nSeveral important gaps are flagged. The field is **heavily bird-biased**, so conclusions may not generalize broadly across the animal kingdom. The review also notes that it remains unclear whether cognitive differences between urban and rural populations reflect **genetic selection, developmental plasticity, or both** — disentangling these is a key open question. The authors do not present new data, so the synthesis is only as strong as the studies it draws on, many of which vary in methodology and quality. The mechanisms linking cognition to urban success remain **largely correlational** at this stage.\n\n## Why it matters\n\nUrbanisation is one of the fastest-growing forms of land-use change on Earth, and it's not going to slow down. Understanding *why* some species thrive in cities while others vanish is a pressing conservation question. If cognitive flexibility is a key filter — determining which individuals or species can establish themselves in urban habitats — then **cognition becomes a conservation variable**, not just an academic curiosity. This review makes a compelling case that the city is, in effect, an unplanned cognitive experiment running on thousands of wild species simultaneously, and we're only just beginning to read the results.",
+  "talking_point": "Turns out city pigeons and urban foxes might literally think differently from their rural cousins — scientists think living around humans may be reshaping animal cognition in real time.",
+  "paper": {
+    "title": "Animal Cognition in an Urbanised World",
+    "authors": [
+      "Victoria E. Lee",
+      "Alex Thornton"
+    ],
+    "journal": "Frontiers in Ecology and Evolution",
+    "year": 2021,
+    "doi": "https://doi.org/10.3389/fevo.2021.633947",
+    "landing_url": "https://doi.org/10.3389/fevo.2021.633947",
+    "openalex_id": "https://openalex.org/W3135574805",
+    "cited_by_count": 131,
+    "is_open_access": true
+  }
+}
