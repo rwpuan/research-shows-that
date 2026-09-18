@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-19",
+  "headline": "Research shows that urban growth models rarely make it into real planning decisions",
+  "dek": "A 2012 review of 156 studies finds that while planners and modelers both recognize the potential of urban growth prediction models, the tools consistently fall short of influencing actual decision-making — largely due to data barriers and a disconnect between the two communities.",
+  "read_minutes": 3,
+  "topic": "Human Perception",
+  "summary_md": "## What they found\n\nUrban growth prediction models are a well-developed scientific field — yet they almost never show up where it counts: in the rooms where city planning decisions actually get made. A review of **156 published manuscripts** found that despite widespread recognition of these models' potential, there is **limited agreement that they reach that potential in practice**.\n\nThe most popular modeling technique, by a clear majority, is **cellular automata** — a grid-based simulation approach that models how land use spreads and changes over time. Most studies also focus on **local or regional scales**, a pattern the authors link to the practical reality of data availability rather than any principled choice.\n\nOne of the more striking findings came from a survey of both *developers* (the modeling community) and *users* (urban planners): both groups **acknowledged the models' value** in principle, but neither felt they were being meaningfully integrated into decision-making workflows. The gap isn't just technical — it's social and institutional.\n\nPerhaps most telling: respondents with **less algorithmic experience** were more likely to cite data availability as the biggest barrier. The authors interpret this as a sign that model inputs are becoming increasingly specialized, quietly pricing out non-expert users and limiting how broadly these tools can be applied.\n\n## How they studied it\n\nThe researchers conducted a **systematic literature review**, identifying and analyzing 156 peer-reviewed manuscripts on urban growth prediction models. They compiled an overview of existing modeling approaches, noting their advantages and limitations. Alongside the literature review, they administered a **survey** to members of both the modeling community (developers) and the urban planning community (users), gathering perceptions on model utility, barriers to adoption, and the role of collaboration.\n\n## Caveats & limits\n\n- The abstract does not specify how survey respondents were selected, how many participated, or whether the sample is representative of the broader planning and modeling communities.\n- \"Limited agreement\" and \"strong recognition\" are survey-derived perceptions — they reflect attitudes, not measured outcomes of model use (or non-use) in real planning processes.\n- The review covers literature available up to 2012; the landscape of data availability and modeling tools has shifted considerably since then.\n- The finding that less-experienced respondents blame data more could reflect multiple explanations beyond data specialization — the authors' interpretation is one possibility, not a confirmed mechanism.\n\n## Why it matters\n\nCities are expanding fast, with real consequences for **biodiversity, climate, and natural resources**. Computational models exist that could, in theory, help planners anticipate and manage that growth more sustainably. The uncomfortable finding here is that a **maturity gap** has opened up: the science has progressed, but the science isn't being used.\n\nThe authors argue that **closer collaboration between modelers and planners** is the essential missing ingredient, and they offer specific guidelines to help bridge that divide. For anyone interested in how scientific tools do (or don't) translate into policy, this paper is a candid look at the friction between building a model and changing a decision.",
+  "talking_point": "Turns out we have sophisticated computer models that can predict how cities will grow — we just almost never actually use them when making planning decisions.",
+  "paper": {
+    "title": "Urban Growth Prediction: A Review of Computational Models and Human Perceptions",
+    "authors": [
+      "Dimitris Triantakonstantis",
+      "Giorgos Mountrakis"
+    ],
+    "journal": "Journal of Geographic Information System",
+    "year": 2012,
+    "doi": "https://doi.org/10.4236/jgis.2012.46060",
+    "landing_url": "https://doi.org/10.4236/jgis.2012.46060",
+    "openalex_id": "https://openalex.org/W1979248264",
+    "cited_by_count": 176,
+    "is_open_access": true
+  }
+}
